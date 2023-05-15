@@ -5,17 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-28 11:43+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-02-04 23:15+0000\n"
+"Last-Translator: skypichat <skypichat@hotmail.fr>\n"
 "Language-Team: French (France) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/fr_fr/>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.15.2\n"
+
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Un thème pour Kodi Media Center"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr "Il s'agit de la 8ème génération de skin Bello pour Kodi. Bello 8 vise à maximiser votre expérience de divertissement Kodi avec sa NOUVELLE interface unique, propre et élégante tout en offrant aux utilisateurs un niveau de personnalisation élevé et de nombreuses fonctionnalités intéressantes !"
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr "L'utilisation de la souris, commandes de jeux et de écran tactile n'est pas prise en charge. Avec l'installation de ce skin, vous acceptez de ne pas l'utiliser à des fins commerciales sans mon consentement préalable. Je ne suis associé à aucune version de Kodi disponible et je ne fournirai aucun support aux addons tiers sur liste noire, interdits ou illégaux."
 
 msgctxt "#31000"
 msgid "Live TV"
@@ -63,11 +75,11 @@ msgstr "Personnaliser le menu d'accueil"
 
 msgctxt "#31011"
 msgid "Recommended by TMDB"
-msgstr ""
+msgstr "Recommandé par TMDB"
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 msgctxt "#31013"
 msgid "Home Menu"
@@ -111,7 +123,7 @@ msgstr "Fichiers musicaux"
 
 msgctxt "#31023"
 msgid "Loading Info..."
-msgstr ""
+msgstr "Chargement des informations..."
 
 msgctxt "#31024"
 msgid "of"
@@ -263,7 +275,7 @@ msgstr "Widgets de films"
 
 msgctxt "#31095"
 msgid "TV Shows Widgets"
-msgstr "Widgets d'émissions de télévision"
+msgstr "Widgets de séries TV"
 
 msgctxt "#31096"
 msgid "Music Widgets"
@@ -343,11 +355,11 @@ msgstr "Équipe"
 
 msgctxt "#31115"
 msgid "Options Menu"
-msgstr ""
+msgstr "Menu des options"
 
 msgctxt "#31116"
 msgid "Views Menu"
-msgstr ""
+msgstr "Menu des vues"
 
 msgctxt "#31124"
 msgid "Flashing Lights"
@@ -399,15 +411,15 @@ msgstr "Activer les alertes météo"
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
-msgstr "Add-on Paroles"
+msgstr "Extension Paroles"
 
 msgctxt "#31142"
 msgid "Required Add-on"
-msgstr "Add-on requis"
+msgstr "Extension requise"
 
 msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
-msgstr "Activer les infos Prochaine diffusion et le guide TV pour les émissions de télévision [COLOR=55white](Requiert script.tv.show.next.aired)[/COLOR]"
+msgstr "Activer les infos NextAired et le guide TV pour les séries TV [COLOR=55white](Requiert script.tv.show.next.aired)[/COLOR]"
 
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
@@ -447,7 +459,7 @@ msgstr "Appuyez sur BAS pour plus d'informations"
 
 msgctxt "#31165"
 msgid "Ends"
-msgstr ""
+msgstr "Prend fin"
 
 msgctxt "#31166"
 msgid "Local subtitle available"
@@ -491,11 +503,11 @@ msgstr "Mes chaînes TV intelligentes"
 
 msgctxt "#31206"
 msgid "Next Aired TV Shows"
-msgstr "Prochains spectacles TV à l'antenne"
+msgstr "Prochaines séries TV à l'antenne"
 
 msgctxt "#31207"
 msgid "Widget's Aspect Ratio"
-msgstr "Ratio d'aspect du widget"
+msgstr "Rapport hauteur largeur du widget"
 
 msgctxt "#31208"
 msgid "Auto-Hide all Widgets"
@@ -551,7 +563,7 @@ msgstr "Information supplémentaire"
 
 msgctxt "#31221"
 msgid "Extra art"
-msgstr ""
+msgstr "Art supplémentaire"
 
 msgctxt "#31222"
 msgid "Latest Song"
@@ -575,7 +587,7 @@ msgstr "Fournisseur de données"
 
 msgctxt "#31231"
 msgid "Daily"
-msgstr ""
+msgstr "Quotidien"
 
 msgctxt "#31233"
 msgid "Location"
@@ -615,11 +627,11 @@ msgstr "Films pour enfants"
 
 msgctxt "#31245"
 msgid "Kids TV Shows"
-msgstr "Spectacles TV pour enfants"
+msgstr "Séries TV pour enfants"
 
 msgctxt "#31246"
 msgid "TV Shows Airing Today"
-msgstr "Émissions TV diffusées aujourd'hui"
+msgstr "Séries TV diffusées aujourd'hui"
 
 msgctxt "#31247"
 msgid "Random Movies"
@@ -627,7 +639,7 @@ msgstr "Films au hasard"
 
 msgctxt "#31248"
 msgid "Random TV Shows"
-msgstr "Spectacles TV au hasard"
+msgstr "Séries TV au hasard"
 
 msgctxt "#31249"
 msgid "Random Albums"
@@ -643,11 +655,11 @@ msgstr "Films populaires"
 
 msgctxt "#31252"
 msgid "Popular TV Shows"
-msgstr "Spectacles TV populaires"
+msgstr "Séries TV populaires"
 
 msgctxt "#31253"
 msgid "Oscars Winners"
-msgstr ""
+msgstr "Gagnants des Oscars"
 
 msgctxt "#31254"
 msgid "Search on YouTube"
@@ -667,7 +679,7 @@ msgstr "Films à la mode"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr "Spectacles TV à la mode"
+msgstr "Séries TV à la mode"
 
 msgctxt "#31259"
 msgid "Random Artists"
@@ -679,7 +691,7 @@ msgstr "Films en cours"
 
 msgctxt "#31261"
 msgid "TV Shows In Progress"
-msgstr "Spectacles TV en cours"
+msgstr "Séries TV en cours"
 
 msgctxt "#31262"
 msgid "Music In Progress"
@@ -691,7 +703,7 @@ msgstr "Films non visionnés"
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
-msgstr "Spectacles TV non visionnés"
+msgstr "Séries TV non visionnées"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
@@ -703,7 +715,7 @@ msgstr "Films les mieux cotés"
 
 msgctxt "#31267"
 msgid "Top Rated TV Shows"
-msgstr "Spectacles TV les mieux cotés"
+msgstr "Séries TV les mieux cotées"
 
 msgctxt "#31268"
 msgid "Random Episodes"
@@ -711,7 +723,7 @@ msgstr "Épisodes aléatoires"
 
 msgctxt "#31269"
 msgid "On-Air TV Shows"
-msgstr "Spectacles TV à l'antenne"
+msgstr "Séries TV à l'antenne"
 
 msgctxt "#31270"
 msgid "Movie Facts"
@@ -719,7 +731,7 @@ msgstr "Faits sur le film"
 
 msgctxt "#31271"
 msgid "TV Show Facts"
-msgstr "Faits sur le spectacle"
+msgstr "Faits sur la série TV"
 
 msgctxt "#31272"
 msgid "Died"
@@ -735,11 +747,11 @@ msgstr "Titres aléatoires"
 
 msgctxt "#31275"
 msgid "Most Watched TV Shows"
-msgstr "Spectacles TV les plus regardés"
+msgstr "Séries TV les plus regardées"
 
 msgctxt "#31276"
 msgid "Most Anticipated TV Shows"
-msgstr "Spectacles TV les plus attendus"
+msgstr "Séries TV les plus attendues"
 
 msgctxt "#31277"
 msgid "Most Watched Movies"
@@ -779,15 +791,15 @@ msgstr "En pause"
 
 msgctxt "#31303"
 msgid "Rewinding:"
-msgstr "Rembobinage :"
+msgstr "Rembobinage :"
 
 msgctxt "#31304"
 msgid "Forwarding:"
-msgstr "Avance :"
+msgstr "Avance :"
 
 msgctxt "#31305"
 msgid "Finish Time:"
-msgstr "Heure de fin :"
+msgstr "Heure de fin :"
 
 msgctxt "#31306"
 msgid "Customize Background"
@@ -811,11 +823,11 @@ msgstr "Paramètres de visualisation"
 
 msgctxt "#31311"
 msgid "Enable Music Fanart SlideShow"
-msgstr "Activer le diaporama Fanart de musique"
+msgstr "Activer le diaporama Fanart SlideShow"
 
 msgctxt "#31312"
 msgid "Enable Artist SlideShow"
-msgstr "Activer le diaporama de l'artiste"
+msgstr "Activer le diaporama Artist SlideShow"
 
 msgctxt "#31313"
 msgid "Animated Backgrounds"
@@ -895,11 +907,11 @@ msgstr "Similaires"
 
 msgctxt "#31357"
 msgid "Timer"
-msgstr ""
+msgstr "Minuteur"
 
 msgctxt "#31358"
 msgid "Small List"
-msgstr ""
+msgstr "Petite liste"
 
 msgctxt "#31374"
 msgid "Quick Navigation"
@@ -935,7 +947,7 @@ msgstr "Rechercher dans la bibliothèque musicale"
 
 msgctxt "#31383"
 msgid "Search Add-ons"
-msgstr "Recherche d'add-ons"
+msgstr "Recherche d'extensions"
 
 msgctxt "#31384"
 msgid "Search TheMovieDB"
@@ -951,7 +963,7 @@ msgstr "Gens"
 
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
-msgstr "Choisissez parmi une variété de paramètres et d'options de personnalisation pour que \"Bello\" réponde à vos besoins et à vos goûts."
+msgstr "Choisir parmi une variété de paramètres et d'options de personnalisation pour que \"Bello\" réponde à vos besoins et à vos goûts."
 
 msgctxt "#31410"
 msgid "With Kodi you can have several profiles and the auto login option if the login screen is disabled."

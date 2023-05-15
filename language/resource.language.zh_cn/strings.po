@@ -5,17 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-28 11:43+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-06-20 17:14+0000\n"
+"Last-Translator: taxigps <taxigps@sina.com>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/zh_cn/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
+
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Kodi媒体中心的一个图形用户界面"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr "这是 Kodi 的第 8 代 Bello 皮肤。Bello 8 旨在通过其全新的独特、干净和优雅的界面，最大限度地提高您的 Kodi 娱乐体验，同时为用户提供高度定制级别和许多炫酷功能！"
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr "不支持使用鼠标、游戏和触摸屏。安装此皮肤表示您同意，未经我事先同意，您不得以任何方式将其用于商业目的。我与任何可用的 Kodi 发行版都没有关联，我不会对列入黑名单、被禁止或非法的第三方插件提供任何支持。"
 
 msgctxt "#31000"
 msgid "Live TV"
@@ -63,11 +75,11 @@ msgstr "自定义主界面菜单"
 
 msgctxt "#31011"
 msgid "Recommended by TMDB"
-msgstr ""
+msgstr "TMDB推荐"
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "更多"
 
 msgctxt "#31013"
 msgid "Home Menu"
@@ -79,7 +91,7 @@ msgstr "创作"
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "类似于"
 
 msgctxt "#31016"
 msgid "File Manager"
@@ -87,7 +99,7 @@ msgstr "文件管理器"
 
 msgctxt "#31017"
 msgid "Not Installed or Disabled"
-msgstr "未安装或被禁用。"
+msgstr "未安装或被禁用"
 
 msgctxt "#31018"
 msgid "Trailers"
@@ -111,7 +123,7 @@ msgstr "音乐文件"
 
 msgctxt "#31023"
 msgid "Loading Info..."
-msgstr ""
+msgstr "加载信息中…"
 
 msgctxt "#31024"
 msgid "of"
@@ -327,27 +339,27 @@ msgstr "屏幕菜单布局改变。"
 
 msgctxt "#31111"
 msgid "Budget"
-msgstr ""
+msgstr "预算"
 
 msgctxt "#31112"
 msgid "Revenue"
-msgstr ""
+msgstr "收入"
 
 msgctxt "#31113"
 msgid "Awards"
-msgstr ""
+msgstr "奖项"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "摄制组"
 
 msgctxt "#31115"
 msgid "Options Menu"
-msgstr ""
+msgstr "选项菜单"
 
 msgctxt "#31116"
 msgid "Views Menu"
-msgstr ""
+msgstr "视图菜单"
 
 msgctxt "#31124"
 msgid "Flashing Lights"
@@ -447,7 +459,7 @@ msgstr "按向下键显示更多信息"
 
 msgctxt "#31165"
 msgid "Ends"
-msgstr ""
+msgstr "结束"
 
 msgctxt "#31166"
 msgid "Local subtitle available"
@@ -551,7 +563,7 @@ msgstr "附加信息"
 
 msgctxt "#31221"
 msgid "Extra art"
-msgstr ""
+msgstr "额外插图"
 
 msgctxt "#31222"
 msgid "Latest Song"
@@ -575,7 +587,7 @@ msgstr "数据提供"
 
 msgctxt "#31231"
 msgid "Daily"
-msgstr ""
+msgstr "每日"
 
 msgctxt "#31233"
 msgid "Location"
@@ -647,7 +659,7 @@ msgstr "流行的剧集"
 
 msgctxt "#31253"
 msgid "Oscars Winners"
-msgstr ""
+msgstr "奥斯卡获奖"
 
 msgctxt "#31254"
 msgid "Search on YouTube"
@@ -779,11 +791,11 @@ msgstr "暂停"
 
 msgctxt "#31303"
 msgid "Rewinding:"
-msgstr "倒退"
+msgstr "倒退："
 
 msgctxt "#31304"
 msgid "Forwarding:"
-msgstr "前进"
+msgstr "前进："
 
 msgctxt "#31305"
 msgid "Finish Time:"
@@ -847,7 +859,7 @@ msgstr "继续观看？"
 
 msgctxt "#31320"
 msgid "UpNext will stop in..."
-msgstr ""
+msgstr "下一集将停止于…"
 
 msgctxt "#31321"
 msgid "Video decoder"
@@ -891,15 +903,15 @@ msgstr "不隐藏组"
 
 msgctxt "#31356"
 msgid "Similar"
-msgstr ""
+msgstr "类似"
 
 msgctxt "#31357"
 msgid "Timer"
-msgstr ""
+msgstr "计时"
 
 msgctxt "#31358"
 msgid "Small List"
-msgstr ""
+msgstr "小列表"
 
 msgctxt "#31374"
 msgid "Quick Navigation"

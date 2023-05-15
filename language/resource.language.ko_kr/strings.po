@@ -1,36 +1,48 @@
 # Translators:
 # Nessus85100 <nessus85100@hotmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-03-30 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-06 10:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Korean <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/ko_kr/>\n"
 "Language: ko_kr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.2\n"
 
-#: Misc labels
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Kodi Media Center를 위한 그래픽 사용자 인터페이스"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr ""
+
 msgctxt "#31000"
 msgid "Live TV"
-msgstr ""
+msgstr "TV 시청"
 
 msgctxt "#31001"
 msgid "TV Guide"
-msgstr ""
+msgstr "TV 가이드"
 
 msgctxt "#31002"
 msgid "TV Shows"
-msgstr ""
+msgstr "TV 프로그램"
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr ""
+msgstr "방송됨"
 
 msgctxt "#31004"
 msgid "Premiere"
@@ -38,11 +50,11 @@ msgstr ""
 
 msgctxt "#31005"
 msgid "Track Number"
-msgstr ""
+msgstr "트랙 번호"
 
 msgctxt "#31006"
 msgid "Working..."
-msgstr ""
+msgstr "작업 중..."
 
 msgctxt "#31007"
 msgid "Please Wait..."
@@ -54,7 +66,7 @@ msgstr ""
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr ""
+msgstr "컨텍스트 메뉴"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
@@ -78,7 +90,7 @@ msgstr ""
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "유사한 작품"
 
 msgctxt "#31016"
 msgid "File Manager"
@@ -90,15 +102,15 @@ msgstr ""
 
 msgctxt "#31018"
 msgid "Trailers"
-msgstr ""
+msgstr "예고편"
 
 msgctxt "#31019"
 msgid "Directed by"
-msgstr ""
+msgstr "감독"
 
 msgctxt "#31020"
 msgid "Written by"
-msgstr ""
+msgstr "각본"
 
 msgctxt "#31021"
 msgid "Music Library"
@@ -118,7 +130,7 @@ msgstr ""
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "항목"
 
 msgctxt "#31026"
 msgid "Scrolling..."
@@ -126,13 +138,12 @@ msgstr ""
 
 msgctxt "#31027"
 msgid "Memory Usage"
-msgstr ""
+msgstr "메모리 사용"
 
 msgctxt "#31028"
 msgid "Items"
-msgstr ""
+msgstr "항목"
 
-#: empty string id 31029
 msgctxt "#31030"
 msgid "AM"
 msgstr ""
@@ -147,17 +158,16 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr ""
+msgstr "채널 그룹"
 
 msgctxt "#31034"
 msgid "Teletext"
-msgstr ""
+msgstr "문자다중방송"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
 msgstr ""
 
-#: empty string id 31036
 msgctxt "#31037"
 msgid "Change Rating"
 msgstr ""
@@ -166,10 +176,9 @@ msgctxt "#31038"
 msgid "Esc"
 msgstr ""
 
-#: empty strings from id 31039 to 31040
 msgctxt "#31041"
 msgid "Creator"
-msgstr ""
+msgstr "만든이"
 
 msgctxt "#31042"
 msgid "Welcome to Bello!"
@@ -207,15 +216,13 @@ msgctxt "#31050"
 msgid "Logging off"
 msgstr ""
 
-#: empty strings from id 31051 to 31079
-#: ViewTypes Labels
 msgctxt "#31080"
 msgid "Slide"
-msgstr ""
+msgstr "슬라이드"
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "갤러리"
 
 msgctxt "#31082"
 msgid "3D Wall"
@@ -223,11 +230,11 @@ msgstr ""
 
 msgctxt "#31083"
 msgid "Wall"
-msgstr ""
+msgstr "벽"
 
 msgctxt "#31084"
 msgid "Posters"
-msgstr ""
+msgstr "포스터"
 
 msgctxt "#31085"
 msgid "Thumbnails"
@@ -253,12 +260,10 @@ msgctxt "#31090"
 msgid "Tiles"
 msgstr ""
 
-#: Skin Settings labels
 msgctxt "#31091"
 msgid "Supported Add-ons"
 msgstr ""
 
-#: empty string id 31092
 msgctxt "#31093"
 msgid "Quick Navigation Widgets"
 msgstr ""
@@ -321,11 +326,11 @@ msgstr ""
 
 msgctxt "#31108"
 msgid "System Music Files"
-msgstr ""
+msgstr "시스템 음악 파일"
 
 msgctxt "#31109"
 msgid "Current Playlist"
-msgstr ""
+msgstr "현재 재생목록"
 
 msgctxt "#31110"
 msgid "OSD layout has changed."
@@ -333,19 +338,19 @@ msgstr ""
 
 msgctxt "#31111"
 msgid "Budget"
-msgstr ""
+msgstr "예산"
 
 msgctxt "#31112"
 msgid "Revenue"
-msgstr ""
+msgstr "수익"
 
 msgctxt "#31113"
 msgid "Awards"
-msgstr ""
+msgstr "수상"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "크루"
 
 msgctxt "#31115"
 msgid "Options Menu"
@@ -355,7 +360,6 @@ msgctxt "#31116"
 msgid "Views Menu"
 msgstr ""
 
-#: empty strings from id 31117 to 31123
 msgctxt "#31124"
 msgid "Flashing Lights"
 msgstr ""
@@ -392,12 +396,10 @@ msgctxt "#31132"
 msgid "Hide Background Video"
 msgstr ""
 
-#: empty strings from id 31133 to 31136
 msgctxt "#31137"
 msgid "Enable Notifications"
 msgstr ""
 
-#: empty string id 31138
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
 msgstr ""
@@ -408,7 +410,7 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
-msgstr ""
+msgstr "가사 애드온"
 
 msgctxt "#31142"
 msgid "Required Add-on"
@@ -418,17 +420,14 @@ msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
 msgstr ""
 
-#: empty strings from id 31144 to 31150
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
 msgstr ""
 
-#: empty string id 31152
 msgctxt "#31153"
 msgid "Enable login screen"
 msgstr ""
 
-#: empty strings from id 31154 to 31155
 msgctxt "#31156"
 msgid "Manage Video Views"
 msgstr ""
@@ -439,16 +438,15 @@ msgstr ""
 
 msgctxt "#31158"
 msgid "Views"
-msgstr ""
+msgstr "보기"
 
-#: empty strings from id 31159 to 31160
 msgctxt "#31161"
 msgid "Hide home menu extra info"
 msgstr ""
 
 msgctxt "#31162"
 msgid "Enable Kiosk Mode"
-msgstr ""
+msgstr "전시모드 사용"
 
 msgctxt "#31163"
 msgid "Cast info"
@@ -464,7 +462,7 @@ msgstr ""
 
 msgctxt "#31166"
 msgid "Local subtitle available"
-msgstr ""
+msgstr "로컬 자막 있음"
 
 msgctxt "#31167"
 msgid "Settings Level:"
@@ -476,10 +474,8 @@ msgstr ""
 
 msgctxt "#31169"
 msgid "Reset Skin"
-msgstr ""
+msgstr "스킨 재설정"
 
-#: empty strings from id 31170 to 31199
-#: Scripts Labels
 msgctxt "#31200"
 msgid "My Smartish Movies"
 msgstr ""
@@ -498,7 +494,7 @@ msgstr ""
 
 msgctxt "#31204"
 msgid "Top 250 Movies"
-msgstr ""
+msgstr "상위 250개 영화"
 
 msgctxt "#31205"
 msgid "My Smartish TV Channels"
@@ -522,7 +518,7 @@ msgstr ""
 
 msgctxt "#31210"
 msgid "Recent"
-msgstr ""
+msgstr "최근"
 
 msgctxt "#31211"
 msgid "Latest Movie"
@@ -538,7 +534,7 @@ msgstr ""
 
 msgctxt "#31214"
 msgid "Airing"
-msgstr ""
+msgstr "방송"
 
 msgctxt "#31215"
 msgid "Next Airs"
@@ -554,15 +550,15 @@ msgstr ""
 
 msgctxt "#31218"
 msgid "Landscape"
-msgstr ""
+msgstr "가로"
 
 msgctxt "#31219"
 msgid "Logo"
-msgstr ""
+msgstr "로고"
 
 msgctxt "#31220"
 msgid "Extra Info"
-msgstr ""
+msgstr "추가 정보"
 
 msgctxt "#31221"
 msgid "Extra art"
@@ -574,16 +570,15 @@ msgstr ""
 
 msgctxt "#31223"
 msgid "Square"
-msgstr ""
+msgstr "스퀘어"
 
-#: empty strings from id 31224 to 31227
 msgctxt "#31228"
 msgid "at"
 msgstr ""
 
 msgctxt "#31229"
 msgid "Last Updated"
-msgstr ""
+msgstr "마지막 업데이트"
 
 msgctxt "#31230"
 msgid "Data Provider"
@@ -593,12 +588,10 @@ msgctxt "#31231"
 msgid "Daily"
 msgstr ""
 
-#: empty string id 31232
 msgctxt "#31233"
 msgid "Location"
-msgstr ""
+msgstr "위치"
 
-#: empty strings from id 31234 to 31236
 msgctxt "#31237"
 msgid "Popular People"
 msgstr ""
@@ -641,7 +634,7 @@ msgstr ""
 
 msgctxt "#31247"
 msgid "Random Movies"
-msgstr ""
+msgstr "무작위 영화"
 
 msgctxt "#31248"
 msgid "Random TV Shows"
@@ -649,7 +642,7 @@ msgstr ""
 
 msgctxt "#31249"
 msgid "Random Albums"
-msgstr ""
+msgstr "무작위 앨범"
 
 msgctxt "#31250"
 msgid "Coming Soon"
@@ -681,15 +674,15 @@ msgstr ""
 
 msgctxt "#31257"
 msgid "Trending Movies"
-msgstr ""
+msgstr "인기 영화"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr ""
+msgstr "인기 TV 프로그램"
 
 msgctxt "#31259"
 msgid "Random Artists"
-msgstr ""
+msgstr "무작위 아티스트"
 
 msgctxt "#31260"
 msgid "Movies In Progress"
@@ -705,19 +698,19 @@ msgstr ""
 
 msgctxt "#31263"
 msgid "Unwatched Movies"
-msgstr ""
+msgstr "미시청 영화"
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
-msgstr ""
+msgstr "시청하지 않은 TV 프로그램"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
-msgstr ""
+msgstr "미시청 에피소드"
 
 msgctxt "#31266"
 msgid "Top Rated Movies"
-msgstr ""
+msgstr "최고 평점 영화"
 
 msgctxt "#31267"
 msgid "Top Rated TV Shows"
@@ -725,7 +718,7 @@ msgstr ""
 
 msgctxt "#31268"
 msgid "Random Episodes"
-msgstr ""
+msgstr "무작위 에피소드"
 
 msgctxt "#31269"
 msgid "On-Air TV Shows"
@@ -749,7 +742,7 @@ msgstr ""
 
 msgctxt "#31274"
 msgid "Random Songs"
-msgstr ""
+msgstr "랜덤 노래"
 
 msgctxt "#31275"
 msgid "Most Watched TV Shows"
@@ -783,19 +776,17 @@ msgctxt "#31282"
 msgid "Reset & Update Info"
 msgstr ""
 
-#: empty strings from id 31283 to 31299
-#: Video and Music OSD Labels
 msgctxt "#31300"
 msgid "Muted"
-msgstr ""
+msgstr "음소거"
 
 msgctxt "#31301"
 msgid "Playing"
-msgstr ""
+msgstr "재생 중"
 
 msgctxt "#31302"
 msgid "Paused"
-msgstr ""
+msgstr "일시정지"
 
 msgctxt "#31303"
 msgid "Rewinding:"
@@ -811,7 +802,7 @@ msgstr ""
 
 msgctxt "#31306"
 msgid "Customize Background"
-msgstr ""
+msgstr "배경 사용자 정의"
 
 msgctxt "#31307"
 msgid "Enable Visualization"
@@ -823,11 +814,11 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Visualization Presets"
-msgstr ""
+msgstr "시각화 사전설정"
 
 msgctxt "#31310"
 msgid "Visualization Settings"
-msgstr ""
+msgstr "시각화 설정"
 
 msgctxt "#31311"
 msgid "Enable Music Fanart SlideShow"
@@ -851,7 +842,7 @@ msgstr ""
 
 msgctxt "#31316"
 msgid "Now Playing"
-msgstr ""
+msgstr "지금 재생 중"
 
 msgctxt "#31317"
 msgid "Continue watching ?"
@@ -871,11 +862,11 @@ msgstr ""
 
 msgctxt "#31321"
 msgid "Video decoder"
-msgstr ""
+msgstr "비디오 디코더"
 
 msgctxt "#31322"
 msgid "Pixel format"
-msgstr ""
+msgstr "픽셀 형식"
 
 msgctxt "#31323"
 msgid "CPU usage"
@@ -885,23 +876,21 @@ msgctxt "#31324"
 msgid "Cache level"
 msgstr ""
 
-#: empty strings from id 31325 to 31349
-#: PVR Labels
 msgctxt "#31350"
 msgid "Available Groups"
-msgstr ""
+msgstr "사용 가능한 그룹"
 
 msgctxt "#31351"
 msgid "Add Group"
-msgstr ""
+msgstr "그룹 추가"
 
 msgctxt "#31352"
 msgid "Rename Group"
-msgstr ""
+msgstr "그룹 이름 변경"
 
 msgctxt "#31353"
 msgid "Delete Group"
-msgstr ""
+msgstr "그룹 삭제"
 
 msgctxt "#31354"
 msgid "Hide Group"
@@ -913,7 +902,7 @@ msgstr ""
 
 msgctxt "#31356"
 msgid "Similar"
-msgstr ""
+msgstr "유사"
 
 msgctxt "#31357"
 msgid "Timer"
@@ -923,8 +912,6 @@ msgctxt "#31358"
 msgid "Small List"
 msgstr ""
 
-#: empty strings from id 31359 to 31374
-#: Quick Navigation Labels
 msgctxt "#31374"
 msgid "Quick Navigation"
 msgstr ""
@@ -949,7 +936,6 @@ msgctxt "#31379"
 msgid "Custom Items"
 msgstr ""
 
-#: empty string id 31380
 msgctxt "#31381"
 msgid "Search Video Library"
 msgstr ""
@@ -964,7 +950,7 @@ msgstr ""
 
 msgctxt "#31384"
 msgid "Search TheMovieDB"
-msgstr ""
+msgstr "TheMovieDB 검색"
 
 msgctxt "#31385"
 msgid "Search Actors & Directors"
@@ -972,10 +958,8 @@ msgstr ""
 
 msgctxt "#31386"
 msgid "People"
-msgstr ""
+msgstr "인물"
 
-#: empty strings from id 31387 to 31408
-#: Settings Category Description & Header Labels
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
 msgstr ""
@@ -984,8 +968,6 @@ msgctxt "#31410"
 msgid "With Kodi you can have several profiles and the auto login option if the login screen is disabled."
 msgstr ""
 
-#: empty strings from id 31411 to 31430
-#: Help Messages
 msgctxt "#31431"
 msgid "You haven't added any items to Favorites yet.[CR]Highlight an item, and choose \"Add to favorites\" from the context menu."
 msgstr ""

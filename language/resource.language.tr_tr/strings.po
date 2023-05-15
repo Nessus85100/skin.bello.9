@@ -1,48 +1,60 @@
 # Translators:
 # Nessus85100 <nessus85100@hotmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-03-30 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-12 15:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Turkish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/tr_tr/>\n"
 "Language: tr_tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.11.2\n"
 
-#: Misc labels
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Kodi Media Center İçin Arayüz"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr ""
+
 msgctxt "#31000"
 msgid "Live TV"
-msgstr ""
+msgstr "Canlı TV"
 
 msgctxt "#31001"
 msgid "TV Guide"
-msgstr ""
+msgstr "TV Rehberi"
 
 msgctxt "#31002"
 msgid "TV Shows"
-msgstr ""
+msgstr "TV Programları"
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr ""
+msgstr "Yayınlanma"
 
 msgctxt "#31004"
 msgid "Premiere"
-msgstr ""
+msgstr "İlk gösterim"
 
 msgctxt "#31005"
 msgid "Track Number"
-msgstr ""
+msgstr "Parça Numarası"
 
 msgctxt "#31006"
 msgid "Working..."
-msgstr ""
+msgstr "Çalışıyor..."
 
 msgctxt "#31007"
 msgid "Please Wait..."
@@ -54,7 +66,7 @@ msgstr ""
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr ""
+msgstr "İçerik Menüsü"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
@@ -66,7 +78,7 @@ msgstr ""
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "Daha fazla"
 
 msgctxt "#31013"
 msgid "Home Menu"
@@ -74,11 +86,11 @@ msgstr ""
 
 msgctxt "#31014"
 msgid "Created by"
-msgstr ""
+msgstr "Tarafından oluşturuldu"
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "Benzer"
 
 msgctxt "#31016"
 msgid "File Manager"
@@ -90,15 +102,15 @@ msgstr ""
 
 msgctxt "#31018"
 msgid "Trailers"
-msgstr ""
+msgstr "Fragmanlar"
 
 msgctxt "#31019"
 msgid "Directed by"
-msgstr ""
+msgstr "Yöneten"
 
 msgctxt "#31020"
 msgid "Written by"
-msgstr ""
+msgstr "Tarafından yazıldı"
 
 msgctxt "#31021"
 msgid "Music Library"
@@ -118,7 +130,7 @@ msgstr ""
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "Nesne"
 
 msgctxt "#31026"
 msgid "Scrolling..."
@@ -130,9 +142,8 @@ msgstr ""
 
 msgctxt "#31028"
 msgid "Items"
-msgstr ""
+msgstr "Öğe"
 
-#: empty string id 31029
 msgctxt "#31030"
 msgid "AM"
 msgstr ""
@@ -147,17 +158,16 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr ""
+msgstr "Kanal Grubu"
 
 msgctxt "#31034"
 msgid "Teletext"
-msgstr ""
+msgstr "Teleteks"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
 msgstr ""
 
-#: empty string id 31036
 msgctxt "#31037"
 msgid "Change Rating"
 msgstr ""
@@ -166,10 +176,9 @@ msgctxt "#31038"
 msgid "Esc"
 msgstr ""
 
-#: empty strings from id 31039 to 31040
 msgctxt "#31041"
 msgid "Creator"
-msgstr ""
+msgstr "Yapımcı"
 
 msgctxt "#31042"
 msgid "Welcome to Bello!"
@@ -207,15 +216,13 @@ msgctxt "#31050"
 msgid "Logging off"
 msgstr ""
 
-#: empty strings from id 31051 to 31079
-#: ViewTypes Labels
 msgctxt "#31080"
 msgid "Slide"
-msgstr ""
+msgstr "Slayt"
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "Galeri"
 
 msgctxt "#31082"
 msgid "3D Wall"
@@ -223,11 +230,11 @@ msgstr ""
 
 msgctxt "#31083"
 msgid "Wall"
-msgstr ""
+msgstr "Duvar"
 
 msgctxt "#31084"
 msgid "Posters"
-msgstr ""
+msgstr "Posterler"
 
 msgctxt "#31085"
 msgid "Thumbnails"
@@ -253,12 +260,10 @@ msgctxt "#31090"
 msgid "Tiles"
 msgstr ""
 
-#: Skin Settings labels
 msgctxt "#31091"
 msgid "Supported Add-ons"
-msgstr ""
+msgstr "Desteklenen Eklentiler"
 
-#: empty string id 31092
 msgctxt "#31093"
 msgid "Quick Navigation Widgets"
 msgstr ""
@@ -321,11 +326,11 @@ msgstr ""
 
 msgctxt "#31108"
 msgid "System Music Files"
-msgstr ""
+msgstr "Sistem Müzik Dosyaları"
 
 msgctxt "#31109"
 msgid "Current Playlist"
-msgstr ""
+msgstr "Geçerli Çalma Listesi"
 
 msgctxt "#31110"
 msgid "OSD layout has changed."
@@ -333,19 +338,19 @@ msgstr ""
 
 msgctxt "#31111"
 msgid "Budget"
-msgstr ""
+msgstr "Bütçe"
 
 msgctxt "#31112"
 msgid "Revenue"
-msgstr ""
+msgstr "Gelir"
 
 msgctxt "#31113"
 msgid "Awards"
-msgstr ""
+msgstr "Ödüller"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "Ekip"
 
 msgctxt "#31115"
 msgid "Options Menu"
@@ -355,7 +360,6 @@ msgctxt "#31116"
 msgid "Views Menu"
 msgstr ""
 
-#: empty strings from id 31117 to 31123
 msgctxt "#31124"
 msgid "Flashing Lights"
 msgstr ""
@@ -392,12 +396,10 @@ msgctxt "#31132"
 msgid "Hide Background Video"
 msgstr ""
 
-#: empty strings from id 31133 to 31136
 msgctxt "#31137"
 msgid "Enable Notifications"
 msgstr ""
 
-#: empty string id 31138
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
 msgstr ""
@@ -408,7 +410,7 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
-msgstr ""
+msgstr "Şarkı Sözleri Eklentisi"
 
 msgctxt "#31142"
 msgid "Required Add-on"
@@ -418,17 +420,14 @@ msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
 msgstr ""
 
-#: empty strings from id 31144 to 31150
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
 msgstr ""
 
-#: empty string id 31152
 msgctxt "#31153"
 msgid "Enable login screen"
 msgstr ""
 
-#: empty strings from id 31154 to 31155
 msgctxt "#31156"
 msgid "Manage Video Views"
 msgstr ""
@@ -439,16 +438,15 @@ msgstr ""
 
 msgctxt "#31158"
 msgid "Views"
-msgstr ""
+msgstr "Görünümler"
 
-#: empty strings from id 31159 to 31160
 msgctxt "#31161"
 msgid "Hide home menu extra info"
 msgstr ""
 
 msgctxt "#31162"
 msgid "Enable Kiosk Mode"
-msgstr ""
+msgstr "Bilgi Noktası Modunu Etkinleştir"
 
 msgctxt "#31163"
 msgid "Cast info"
@@ -464,7 +462,7 @@ msgstr ""
 
 msgctxt "#31166"
 msgid "Local subtitle available"
-msgstr ""
+msgstr "Yerel altyazı mevcut"
 
 msgctxt "#31167"
 msgid "Settings Level:"
@@ -476,10 +474,8 @@ msgstr ""
 
 msgctxt "#31169"
 msgid "Reset Skin"
-msgstr ""
+msgstr "Cildi Sıfırla"
 
-#: empty strings from id 31170 to 31199
-#: Scripts Labels
 msgctxt "#31200"
 msgid "My Smartish Movies"
 msgstr ""
@@ -522,7 +518,7 @@ msgstr ""
 
 msgctxt "#31210"
 msgid "Recent"
-msgstr ""
+msgstr "En Son"
 
 msgctxt "#31211"
 msgid "Latest Movie"
@@ -538,7 +534,7 @@ msgstr ""
 
 msgctxt "#31214"
 msgid "Airing"
-msgstr ""
+msgstr "Yayınlanan"
 
 msgctxt "#31215"
 msgid "Next Airs"
@@ -554,15 +550,15 @@ msgstr ""
 
 msgctxt "#31218"
 msgid "Landscape"
-msgstr ""
+msgstr "Yatay"
 
 msgctxt "#31219"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 msgctxt "#31220"
 msgid "Extra Info"
-msgstr ""
+msgstr "Ekstra Bilgi"
 
 msgctxt "#31221"
 msgid "Extra art"
@@ -574,16 +570,15 @@ msgstr ""
 
 msgctxt "#31223"
 msgid "Square"
-msgstr ""
+msgstr "Kare"
 
-#: empty strings from id 31224 to 31227
 msgctxt "#31228"
 msgid "at"
 msgstr ""
 
 msgctxt "#31229"
 msgid "Last Updated"
-msgstr ""
+msgstr "Son Güncelleme"
 
 msgctxt "#31230"
 msgid "Data Provider"
@@ -593,12 +588,10 @@ msgctxt "#31231"
 msgid "Daily"
 msgstr ""
 
-#: empty string id 31232
 msgctxt "#31233"
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
-#: empty strings from id 31234 to 31236
 msgctxt "#31237"
 msgid "Popular People"
 msgstr ""
@@ -657,7 +650,7 @@ msgstr ""
 
 msgctxt "#31251"
 msgid "Popular Movies"
-msgstr ""
+msgstr "Popüler Filmler"
 
 msgctxt "#31252"
 msgid "Popular TV Shows"
@@ -681,11 +674,11 @@ msgstr ""
 
 msgctxt "#31257"
 msgid "Trending Movies"
-msgstr ""
+msgstr "Popüler Filmler"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr ""
+msgstr "Popüler TV Programları"
 
 msgctxt "#31259"
 msgid "Random Artists"
@@ -709,7 +702,7 @@ msgstr ""
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
-msgstr ""
+msgstr "İzlenmemiş TV Programları"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
@@ -717,7 +710,7 @@ msgstr ""
 
 msgctxt "#31266"
 msgid "Top Rated Movies"
-msgstr ""
+msgstr "En Yüksek Oylananlar"
 
 msgctxt "#31267"
 msgid "Top Rated TV Shows"
@@ -783,15 +776,13 @@ msgctxt "#31282"
 msgid "Reset & Update Info"
 msgstr ""
 
-#: empty strings from id 31283 to 31299
-#: Video and Music OSD Labels
 msgctxt "#31300"
 msgid "Muted"
-msgstr ""
+msgstr "Sessiz"
 
 msgctxt "#31301"
 msgid "Playing"
-msgstr ""
+msgstr "Oynatılıyor"
 
 msgctxt "#31302"
 msgid "Paused"
@@ -811,7 +802,7 @@ msgstr ""
 
 msgctxt "#31306"
 msgid "Customize Background"
-msgstr ""
+msgstr "Arka Planı Özelleştir"
 
 msgctxt "#31307"
 msgid "Enable Visualization"
@@ -823,11 +814,11 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Visualization Presets"
-msgstr ""
+msgstr "Görsel Öğe Önayarları"
 
 msgctxt "#31310"
 msgid "Visualization Settings"
-msgstr ""
+msgstr "Görsel Öğe Ayarları"
 
 msgctxt "#31311"
 msgid "Enable Music Fanart SlideShow"
@@ -851,7 +842,7 @@ msgstr ""
 
 msgctxt "#31316"
 msgid "Now Playing"
-msgstr ""
+msgstr "Şimdi Çalınıyor"
 
 msgctxt "#31317"
 msgid "Continue watching ?"
@@ -871,11 +862,11 @@ msgstr ""
 
 msgctxt "#31321"
 msgid "Video decoder"
-msgstr ""
+msgstr "Video kod çözücü"
 
 msgctxt "#31322"
 msgid "Pixel format"
-msgstr ""
+msgstr "Piksel biçimi"
 
 msgctxt "#31323"
 msgid "CPU usage"
@@ -885,23 +876,21 @@ msgctxt "#31324"
 msgid "Cache level"
 msgstr ""
 
-#: empty strings from id 31325 to 31349
-#: PVR Labels
 msgctxt "#31350"
 msgid "Available Groups"
-msgstr ""
+msgstr "Mevcut Gruplar"
 
 msgctxt "#31351"
 msgid "Add Group"
-msgstr ""
+msgstr "Grup Ekle"
 
 msgctxt "#31352"
 msgid "Rename Group"
-msgstr ""
+msgstr "Grubu Yeniden Adlandır"
 
 msgctxt "#31353"
 msgid "Delete Group"
-msgstr ""
+msgstr "Grubu Sil"
 
 msgctxt "#31354"
 msgid "Hide Group"
@@ -913,18 +902,16 @@ msgstr ""
 
 msgctxt "#31356"
 msgid "Similar"
-msgstr ""
+msgstr "Benzer"
 
 msgctxt "#31357"
 msgid "Timer"
-msgstr ""
+msgstr "Zamanlayıcı"
 
 msgctxt "#31358"
 msgid "Small List"
 msgstr ""
 
-#: empty strings from id 31359 to 31374
-#: Quick Navigation Labels
 msgctxt "#31374"
 msgid "Quick Navigation"
 msgstr ""
@@ -949,7 +936,6 @@ msgctxt "#31379"
 msgid "Custom Items"
 msgstr ""
 
-#: empty string id 31380
 msgctxt "#31381"
 msgid "Search Video Library"
 msgstr ""
@@ -974,8 +960,6 @@ msgctxt "#31386"
 msgid "People"
 msgstr ""
 
-#: empty strings from id 31387 to 31408
-#: Settings Category Description & Header Labels
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
 msgstr ""
@@ -984,8 +968,6 @@ msgctxt "#31410"
 msgid "With Kodi you can have several profiles and the auto login option if the login screen is disabled."
 msgstr ""
 
-#: empty strings from id 31411 to 31430
-#: Help Messages
 msgctxt "#31431"
 msgid "You haven't added any items to Favorites yet.[CR]Highlight an item, and choose \"Add to favorites\" from the context menu."
 msgstr ""

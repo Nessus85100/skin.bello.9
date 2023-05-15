@@ -1,29 +1,40 @@
 # Translators:
 # Nessus85100 <nessus85100@hotmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-03-30 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-04-12 15:13+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Ukrainian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/uk_ua/>\n"
 "Language: uk_ua\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11.2\n"
 
-#: Misc labels
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr ""
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr ""
+
 msgctxt "#31000"
 msgid "Live TV"
-msgstr ""
+msgstr "ТБ"
 
 msgctxt "#31001"
 msgid "TV Guide"
-msgstr ""
+msgstr "Графік виходу епізодів"
 
 msgctxt "#31002"
 msgid "TV Shows"
@@ -31,7 +42,7 @@ msgstr ""
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr ""
+msgstr "Прем'єра"
 
 msgctxt "#31004"
 msgid "Premiere"
@@ -39,11 +50,11 @@ msgstr ""
 
 msgctxt "#31005"
 msgid "Track Number"
-msgstr ""
+msgstr "Номер треку"
 
 msgctxt "#31006"
 msgid "Working..."
-msgstr ""
+msgstr "Зачекайте…"
 
 msgctxt "#31007"
 msgid "Please Wait..."
@@ -55,7 +66,7 @@ msgstr ""
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr ""
+msgstr "Контекстне меню"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
@@ -91,11 +102,11 @@ msgstr ""
 
 msgctxt "#31018"
 msgid "Trailers"
-msgstr ""
+msgstr "Трейлери"
 
 msgctxt "#31019"
 msgid "Directed by"
-msgstr ""
+msgstr "Режисер"
 
 msgctxt "#31020"
 msgid "Written by"
@@ -119,7 +130,7 @@ msgstr ""
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "Елемент"
 
 msgctxt "#31026"
 msgid "Scrolling..."
@@ -131,9 +142,8 @@ msgstr ""
 
 msgctxt "#31028"
 msgid "Items"
-msgstr ""
+msgstr "у списку"
 
-#: empty string id 31029
 msgctxt "#31030"
 msgid "AM"
 msgstr ""
@@ -148,17 +158,16 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr ""
+msgstr "Група каналів"
 
 msgctxt "#31034"
 msgid "Teletext"
-msgstr ""
+msgstr "Телетекст"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
 msgstr ""
 
-#: empty string id 31036
 msgctxt "#31037"
 msgid "Change Rating"
 msgstr ""
@@ -167,7 +176,6 @@ msgctxt "#31038"
 msgid "Esc"
 msgstr ""
 
-#: empty strings from id 31039 to 31040
 msgctxt "#31041"
 msgid "Creator"
 msgstr ""
@@ -208,15 +216,13 @@ msgctxt "#31050"
 msgid "Logging off"
 msgstr ""
 
-#: empty strings from id 31051 to 31079
-#: ViewTypes Labels
 msgctxt "#31080"
 msgid "Slide"
 msgstr ""
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "Галерея"
 
 msgctxt "#31082"
 msgid "3D Wall"
@@ -224,11 +230,11 @@ msgstr ""
 
 msgctxt "#31083"
 msgid "Wall"
-msgstr ""
+msgstr "Стіна"
 
 msgctxt "#31084"
 msgid "Posters"
-msgstr ""
+msgstr "Постер"
 
 msgctxt "#31085"
 msgid "Thumbnails"
@@ -254,12 +260,10 @@ msgctxt "#31090"
 msgid "Tiles"
 msgstr ""
 
-#: Skin Settings labels
 msgctxt "#31091"
 msgid "Supported Add-ons"
 msgstr ""
 
-#: empty string id 31092
 msgctxt "#31093"
 msgid "Quick Navigation Widgets"
 msgstr ""
@@ -356,7 +360,6 @@ msgctxt "#31116"
 msgid "Views Menu"
 msgstr ""
 
-#: empty strings from id 31117 to 31123
 msgctxt "#31124"
 msgid "Flashing Lights"
 msgstr ""
@@ -393,12 +396,10 @@ msgctxt "#31132"
 msgid "Hide Background Video"
 msgstr ""
 
-#: empty strings from id 31133 to 31136
 msgctxt "#31137"
 msgid "Enable Notifications"
 msgstr ""
 
-#: empty string id 31138
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
 msgstr ""
@@ -409,7 +410,7 @@ msgstr ""
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
-msgstr ""
+msgstr "Надбудова текстів пісень"
 
 msgctxt "#31142"
 msgid "Required Add-on"
@@ -419,17 +420,14 @@ msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
 msgstr ""
 
-#: empty strings from id 31144 to 31150
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
 msgstr ""
 
-#: empty string id 31152
 msgctxt "#31153"
 msgid "Enable login screen"
 msgstr ""
 
-#: empty strings from id 31154 to 31155
 msgctxt "#31156"
 msgid "Manage Video Views"
 msgstr ""
@@ -442,7 +440,6 @@ msgctxt "#31158"
 msgid "Views"
 msgstr ""
 
-#: empty strings from id 31159 to 31160
 msgctxt "#31161"
 msgid "Hide home menu extra info"
 msgstr ""
@@ -465,7 +462,7 @@ msgstr ""
 
 msgctxt "#31166"
 msgid "Local subtitle available"
-msgstr ""
+msgstr "Доступні локальні субтитри"
 
 msgctxt "#31167"
 msgid "Settings Level:"
@@ -479,8 +476,6 @@ msgctxt "#31169"
 msgid "Reset Skin"
 msgstr ""
 
-#: empty strings from id 31170 to 31199
-#: Scripts Labels
 msgctxt "#31200"
 msgid "My Smartish Movies"
 msgstr ""
@@ -523,7 +518,7 @@ msgstr ""
 
 msgctxt "#31210"
 msgid "Recent"
-msgstr ""
+msgstr "Нещодавні"
 
 msgctxt "#31211"
 msgid "Latest Movie"
@@ -555,11 +550,11 @@ msgstr ""
 
 msgctxt "#31218"
 msgid "Landscape"
-msgstr ""
+msgstr "Пейзаж"
 
 msgctxt "#31219"
 msgid "Logo"
-msgstr ""
+msgstr "Логотип"
 
 msgctxt "#31220"
 msgid "Extra Info"
@@ -577,14 +572,13 @@ msgctxt "#31223"
 msgid "Square"
 msgstr ""
 
-#: empty strings from id 31224 to 31227
 msgctxt "#31228"
 msgid "at"
 msgstr ""
 
 msgctxt "#31229"
 msgid "Last Updated"
-msgstr ""
+msgstr "Останнє оновлення"
 
 msgctxt "#31230"
 msgid "Data Provider"
@@ -594,12 +588,10 @@ msgctxt "#31231"
 msgid "Daily"
 msgstr ""
 
-#: empty string id 31232
 msgctxt "#31233"
 msgid "Location"
-msgstr ""
+msgstr "Розташування"
 
-#: empty strings from id 31234 to 31236
 msgctxt "#31237"
 msgid "Popular People"
 msgstr ""
@@ -682,11 +674,11 @@ msgstr ""
 
 msgctxt "#31257"
 msgid "Trending Movies"
-msgstr ""
+msgstr "Популярні фільми"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr ""
+msgstr "Популярні телешоу"
 
 msgctxt "#31259"
 msgid "Random Artists"
@@ -710,7 +702,7 @@ msgstr ""
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
-msgstr ""
+msgstr "Непереглянуті серіали"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
@@ -784,15 +776,13 @@ msgctxt "#31282"
 msgid "Reset & Update Info"
 msgstr ""
 
-#: empty strings from id 31283 to 31299
-#: Video and Music OSD Labels
 msgctxt "#31300"
 msgid "Muted"
 msgstr ""
 
 msgctxt "#31301"
 msgid "Playing"
-msgstr ""
+msgstr "Відтворення"
 
 msgctxt "#31302"
 msgid "Paused"
@@ -824,7 +814,7 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Visualization Presets"
-msgstr ""
+msgstr "Налаштування візуалізації"
 
 msgctxt "#31310"
 msgid "Visualization Settings"
@@ -852,7 +842,7 @@ msgstr ""
 
 msgctxt "#31316"
 msgid "Now Playing"
-msgstr ""
+msgstr "Зараз відтворюється"
 
 msgctxt "#31317"
 msgid "Continue watching ?"
@@ -872,11 +862,11 @@ msgstr ""
 
 msgctxt "#31321"
 msgid "Video decoder"
-msgstr ""
+msgstr "Декодер відео"
 
 msgctxt "#31322"
 msgid "Pixel format"
-msgstr ""
+msgstr "Формат пікселів"
 
 msgctxt "#31323"
 msgid "CPU usage"
@@ -886,23 +876,21 @@ msgctxt "#31324"
 msgid "Cache level"
 msgstr ""
 
-#: empty strings from id 31325 to 31349
-#: PVR Labels
 msgctxt "#31350"
 msgid "Available Groups"
 msgstr ""
 
 msgctxt "#31351"
 msgid "Add Group"
-msgstr ""
+msgstr "Додати групу"
 
 msgctxt "#31352"
 msgid "Rename Group"
-msgstr ""
+msgstr "Перейменувати групу"
 
 msgctxt "#31353"
 msgid "Delete Group"
-msgstr ""
+msgstr "Видалити групу"
 
 msgctxt "#31354"
 msgid "Hide Group"
@@ -924,8 +912,6 @@ msgctxt "#31358"
 msgid "Small List"
 msgstr ""
 
-#: empty strings from id 31359 to 31374
-#: Quick Navigation Labels
 msgctxt "#31374"
 msgid "Quick Navigation"
 msgstr ""
@@ -950,7 +936,6 @@ msgctxt "#31379"
 msgid "Custom Items"
 msgstr ""
 
-#: empty string id 31380
 msgctxt "#31381"
 msgid "Search Video Library"
 msgstr ""
@@ -975,8 +960,6 @@ msgctxt "#31386"
 msgid "People"
 msgstr ""
 
-#: empty strings from id 31387 to 31408
-#: Settings Category Description & Header Labels
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
 msgstr ""
@@ -985,8 +968,6 @@ msgctxt "#31410"
 msgid "With Kodi you can have several profiles and the auto login option if the login screen is disabled."
 msgstr ""
 
-#: empty strings from id 31411 to 31430
-#: Help Messages
 msgctxt "#31431"
 msgid "You haven't added any items to Favorites yet.[CR]Highlight an item, and choose \"Add to favorites\" from the context menu."
 msgstr ""

@@ -5,17 +5,29 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2021-05-28 11:43+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2022-08-31 23:14+0000\n"
+"Last-Translator: ArtyIF <artyomisflash@mail.ru>\n"
 "Language-Team: Russian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/ru_ru/>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.14\n"
+
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Обложка для Kodi"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr "Это восьмое поколение обложки Bello для Kodi. Bello 8 старается предоставить лучший опыт развлечений Kodi своим НОВЫМ уникальным, чистым и элегантным интерфейсом, при этом давая пользователем обширные настройки для кастомизации и кучу крутых функций!"
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr "Игры, управление мышью и сенсорным экраном не поддерживаются. Устанавливая данную обложку Вы даёте согласие, что не будете её использовать для каких-либо коммерческих целей без моего согласия. Я не связан ни с какой-либо доступной сборкой Kodi, и я никогда не добавлю какой-либо поддержки запрещённым или незаконным дополнениям от третьих лиц."
 
 msgctxt "#31000"
 msgid "Live TV"
@@ -63,11 +75,11 @@ msgstr "Настроить главное меню"
 
 msgctxt "#31011"
 msgid "Recommended by TMDB"
-msgstr ""
+msgstr "Рекомендовано TMDB"
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "больше"
 
 msgctxt "#31013"
 msgid "Home Menu"
@@ -79,7 +91,7 @@ msgstr "Создано"
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "Похожий на"
 
 msgctxt "#31016"
 msgid "File Manager"
@@ -111,7 +123,7 @@ msgstr "Музыкальные файлы"
 
 msgctxt "#31023"
 msgid "Loading Info..."
-msgstr ""
+msgstr "Загрузка информации..."
 
 msgctxt "#31024"
 msgid "of"
@@ -339,15 +351,15 @@ msgstr "Награды"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "Команда"
 
 msgctxt "#31115"
 msgid "Options Menu"
-msgstr ""
+msgstr "Меню опций"
 
 msgctxt "#31116"
 msgid "Views Menu"
-msgstr ""
+msgstr "Меню просмотров"
 
 msgctxt "#31124"
 msgid "Flashing Lights"
@@ -447,7 +459,7 @@ msgstr "Нажмите ВНИЗ для получения дополнитель
 
 msgctxt "#31165"
 msgid "Ends"
-msgstr ""
+msgstr "Заканчивается"
 
 msgctxt "#31166"
 msgid "Local subtitle available"
@@ -551,7 +563,7 @@ msgstr "Дополнительная информация"
 
 msgctxt "#31221"
 msgid "Extra art"
-msgstr ""
+msgstr "Дополнительное арт"
 
 msgctxt "#31222"
 msgid "Latest Song"
@@ -575,7 +587,7 @@ msgstr "Поставщик данных"
 
 msgctxt "#31231"
 msgid "Daily"
-msgstr ""
+msgstr "Ежедневный"
 
 msgctxt "#31233"
 msgid "Location"
@@ -647,7 +659,7 @@ msgstr "Популярные сериалы"
 
 msgctxt "#31253"
 msgid "Oscars Winners"
-msgstr ""
+msgstr "Обладатели Оскара"
 
 msgctxt "#31254"
 msgid "Search on YouTube"
@@ -891,15 +903,15 @@ msgstr "Отобразить группы"
 
 msgctxt "#31356"
 msgid "Similar"
-msgstr ""
+msgstr "Похожий"
 
 msgctxt "#31357"
 msgid "Timer"
-msgstr ""
+msgstr "Таймер"
 
 msgctxt "#31358"
 msgid "Small List"
-msgstr ""
+msgstr "Маленький список"
 
 msgctxt "#31374"
 msgid "Quick Navigation"

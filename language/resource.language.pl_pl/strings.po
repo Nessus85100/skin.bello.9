@@ -1,139 +1,149 @@
 # Translators:
 # Nessus85100 <nessus85100@hotmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-03-30 23:53+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-02 12:15+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/pl_pl/>\n"
 "Language: pl_pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14.1\n"
 
-#: Misc labels
+msgctxt "Addon Summary"
+msgid "A GUI for Kodi Media Center"
+msgstr "Interfejs użytkownika dla Kodi Media Center"
+
+msgctxt "Addon Description"
+msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
+msgstr ""
+
+msgctxt "Addon Disclaimer"
+msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
+msgstr ""
+
 msgctxt "#31000"
 msgid "Live TV"
-msgstr ""
+msgstr "Telewizja"
 
 msgctxt "#31001"
 msgid "TV Guide"
-msgstr ""
+msgstr "Przewodnik"
 
 msgctxt "#31002"
 msgid "TV Shows"
-msgstr ""
+msgstr "Seriale"
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr ""
+msgstr "Premiera"
 
 msgctxt "#31004"
 msgid "Premiere"
-msgstr ""
+msgstr "Premiera"
 
 msgctxt "#31005"
 msgid "Track Number"
-msgstr ""
+msgstr "Numer ścieżki"
 
 msgctxt "#31006"
 msgid "Working..."
-msgstr ""
+msgstr "Proszę czekać..."
 
 msgctxt "#31007"
 msgid "Please Wait..."
-msgstr ""
+msgstr "Proszę Czekać..."
 
 msgctxt "#31008"
 msgid "System auto shutdown in"
-msgstr ""
+msgstr "Automatyczne zamknięcie systemu za"
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr ""
+msgstr "Menu kontekstowe"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
-msgstr ""
+msgstr "Dostosowanie menu głównego"
 
 msgctxt "#31011"
 msgid "Recommended by TMDB"
-msgstr ""
+msgstr "Rekomendowane przez TMDB"
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "Więcej"
 
 msgctxt "#31013"
 msgid "Home Menu"
-msgstr ""
+msgstr "Menu główne"
 
 msgctxt "#31014"
 msgid "Created by"
-msgstr ""
+msgstr "Stworzony przez"
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "Podobne do"
 
 msgctxt "#31016"
 msgid "File Manager"
-msgstr ""
+msgstr "Menadżer plików"
 
 msgctxt "#31017"
 msgid "Not Installed or Disabled"
-msgstr ""
+msgstr "Nie zainstalowane lub wyłączone"
 
 msgctxt "#31018"
 msgid "Trailers"
-msgstr ""
+msgstr "Zwiastuny"
 
 msgctxt "#31019"
 msgid "Directed by"
-msgstr ""
+msgstr "Reżyseria"
 
 msgctxt "#31020"
 msgid "Written by"
-msgstr ""
+msgstr "Scenariusz"
 
 msgctxt "#31021"
 msgid "Music Library"
-msgstr ""
+msgstr "Biblioteka muzyki"
 
 msgctxt "#31022"
 msgid "Music Files"
-msgstr ""
+msgstr "Pliki muzyczne"
 
 msgctxt "#31023"
 msgid "Loading Info..."
-msgstr ""
+msgstr "Ładuje info..."
 
 msgctxt "#31024"
 msgid "of"
-msgstr ""
+msgstr "z"
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "Pozycja"
 
 msgctxt "#31026"
 msgid "Scrolling..."
-msgstr ""
+msgstr "Przewijanie..."
 
 msgctxt "#31027"
 msgid "Memory Usage"
-msgstr ""
+msgstr "Zużycie pamięci"
 
 msgctxt "#31028"
 msgid "Items"
-msgstr ""
+msgstr "Pozycje"
 
-#: empty string id 31029
 msgctxt "#31030"
 msgid "AM"
 msgstr ""
@@ -148,49 +158,47 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr ""
+msgstr "Grupa kanałów"
 
 msgctxt "#31034"
 msgid "Teletext"
-msgstr ""
+msgstr "Teletekst"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
-msgstr ""
+msgstr "Szukam napisów"
 
-#: empty string id 31036
 msgctxt "#31037"
 msgid "Change Rating"
-msgstr ""
+msgstr "Zmień ocenę"
 
 msgctxt "#31038"
 msgid "Esc"
 msgstr ""
 
-#: empty strings from id 31039 to 31040
 msgctxt "#31041"
 msgid "Creator"
-msgstr ""
+msgstr "Twórca"
 
 msgctxt "#31042"
 msgid "Welcome to Bello!"
-msgstr ""
+msgstr "Witamy w Bello!"
 
 msgctxt "#31043"
 msgid "Thank you for using Bello!"
-msgstr ""
+msgstr "Dziękujemy za użytkowanie Bello!"
 
 msgctxt "#31044"
 msgid "Starting"
-msgstr ""
+msgstr "Uruchamianie"
 
 msgctxt "#31045"
 msgid "Exiting"
-msgstr ""
+msgstr "Zamykanie"
 
 msgctxt "#31046"
 msgid "Powering off"
-msgstr ""
+msgstr "Wyłączanie"
 
 msgctxt "#31047"
 msgid "Suspending"
@@ -198,49 +206,47 @@ msgstr ""
 
 msgctxt "#31048"
 msgid "Hibernating"
-msgstr ""
+msgstr "Hibernacja"
 
 msgctxt "#31049"
 msgid "Rebooting"
-msgstr ""
+msgstr "Ponowne uruchamianie"
 
 msgctxt "#31050"
 msgid "Logging off"
-msgstr ""
+msgstr "Wylogowanie"
 
-#: empty strings from id 31051 to 31079
-#: ViewTypes Labels
 msgctxt "#31080"
 msgid "Slide"
-msgstr ""
+msgstr "Suwak"
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "Galeria"
 
 msgctxt "#31082"
 msgid "3D Wall"
-msgstr ""
+msgstr "Ściana 3D"
 
 msgctxt "#31083"
 msgid "Wall"
-msgstr ""
+msgstr "Kafelki"
 
 msgctxt "#31084"
 msgid "Posters"
-msgstr ""
+msgstr "Plakaty"
 
 msgctxt "#31085"
 msgid "Thumbnails"
-msgstr ""
+msgstr "Miniaturki"
 
 msgctxt "#31086"
 msgid "Banner List"
-msgstr ""
+msgstr "Lista bannerów"
 
 msgctxt "#31087"
 msgid "VideoWall"
-msgstr ""
+msgstr "Ściana Video"
 
 msgctxt "#31088"
 msgid "List Wall"
@@ -252,29 +258,27 @@ msgstr ""
 
 msgctxt "#31090"
 msgid "Tiles"
-msgstr ""
+msgstr "Kafelki"
 
-#: Skin Settings labels
 msgctxt "#31091"
 msgid "Supported Add-ons"
-msgstr ""
+msgstr "Obsługiwane dodatki"
 
-#: empty string id 31092
 msgctxt "#31093"
 msgid "Quick Navigation Widgets"
-msgstr ""
+msgstr "Widgety szybkiej navigacji"
 
 msgctxt "#31094"
 msgid "Movies Widgets"
-msgstr ""
+msgstr "Widgety filmowe"
 
 msgctxt "#31095"
 msgid "TV Shows Widgets"
-msgstr ""
+msgstr "Widgety seriali TV"
 
 msgctxt "#31096"
 msgid "Music Widgets"
-msgstr ""
+msgstr "Widgety muzyczne"
 
 msgctxt "#31097"
 msgid "RSS Video Feed Widget"
@@ -298,11 +302,11 @@ msgstr ""
 
 msgctxt "#31102"
 msgid "Hide Now Playing Video Info"
-msgstr ""
+msgstr "Ukryj info o teraz odtwarzanym video"
 
 msgctxt "#31103"
 msgid "Hide Now Playing Music Info"
-msgstr ""
+msgstr "Ukryj info o teraz słuchanej muzyce"
 
 msgctxt "#31104"
 msgid "OSD Music Layout"
@@ -322,48 +326,47 @@ msgstr ""
 
 msgctxt "#31108"
 msgid "System Music Files"
-msgstr ""
+msgstr "Systemowe pliki muzyczne"
 
 msgctxt "#31109"
 msgid "Current Playlist"
-msgstr ""
+msgstr "Aktualna lista odtwarzania"
 
 msgctxt "#31110"
 msgid "OSD layout has changed."
-msgstr ""
+msgstr "Rozmieszczenie OSD zostało zmienione."
 
 msgctxt "#31111"
 msgid "Budget"
-msgstr ""
+msgstr "Budżet"
 
 msgctxt "#31112"
 msgid "Revenue"
-msgstr ""
+msgstr "Dochód"
 
 msgctxt "#31113"
 msgid "Awards"
-msgstr ""
+msgstr "Nagrody"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "Obsada"
 
 msgctxt "#31115"
 msgid "Options Menu"
-msgstr ""
+msgstr "Menu opcji"
 
 msgctxt "#31116"
 msgid "Views Menu"
-msgstr ""
+msgstr "Menu widoku"
 
-#: empty strings from id 31117 to 31123
 msgctxt "#31124"
 msgid "Flashing Lights"
 msgstr ""
 
 msgctxt "#31125"
 msgid "Edit Info"
-msgstr ""
+msgstr "Edytuj info"
 
 msgctxt "#31126"
 msgid "Textures Colours"
@@ -371,15 +374,15 @@ msgstr ""
 
 msgctxt "#31127"
 msgid "Text Colours"
-msgstr ""
+msgstr "Kolor tekstu"
 
 msgctxt "#31128"
 msgid "Background Colours"
-msgstr ""
+msgstr "Kolory tła"
 
 msgctxt "#31129"
 msgid "Reset all colours to default"
-msgstr ""
+msgstr "Zresetuj wszystkie kolory do domyslnych"
 
 msgctxt "#31130"
 msgid "Disable Fanart in all sections"
@@ -387,89 +390,83 @@ msgstr ""
 
 msgctxt "#31131"
 msgid "Show Only on Home Screen"
-msgstr ""
+msgstr "Pokaż tylko na ekranie głównym"
 
 msgctxt "#31132"
 msgid "Hide Background Video"
 msgstr ""
 
-#: empty strings from id 31133 to 31136
 msgctxt "#31137"
 msgid "Enable Notifications"
-msgstr ""
+msgstr "Włącz powiadomienia"
 
-#: empty string id 31138
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
-msgstr ""
+msgstr "Włącz powiadomienia dodatków"
 
 msgctxt "#31140"
 msgid "Enable Weather Alerts Notifications"
-msgstr ""
+msgstr "Włącz powiadomienia alertów pogody"
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
-msgstr ""
+msgstr "Dodatek Tekst utworu"
 
 msgctxt "#31142"
 msgid "Required Add-on"
-msgstr ""
+msgstr "Wymagany dodatek"
 
 msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
 msgstr ""
 
-#: empty strings from id 31144 to 31150
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
 msgstr ""
 
-#: empty string id 31152
 msgctxt "#31153"
 msgid "Enable login screen"
-msgstr ""
+msgstr "Włącz ekran logowania"
 
-#: empty strings from id 31154 to 31155
 msgctxt "#31156"
 msgid "Manage Video Views"
-msgstr ""
+msgstr "Zarządzaj widokami video"
 
 msgctxt "#31157"
 msgid "Manage Music Views"
-msgstr ""
+msgstr "Zarządzaj widokami muzyki"
 
 msgctxt "#31158"
 msgid "Views"
-msgstr ""
+msgstr "Widoki"
 
-#: empty strings from id 31159 to 31160
 msgctxt "#31161"
 msgid "Hide home menu extra info"
 msgstr ""
 
 msgctxt "#31162"
 msgid "Enable Kiosk Mode"
-msgstr ""
+msgstr "Uruchamiaj w trybie Kiosku"
 
 msgctxt "#31163"
 msgid "Cast info"
-msgstr ""
+msgstr "Informacje o obsadzie"
 
 msgctxt "#31164"
 msgid "Press DOWN for more info"
-msgstr ""
+msgstr "Wciśnij W DÓŁ po więcej szczegółów"
 
 msgctxt "#31165"
 msgid "Ends"
-msgstr ""
+msgstr "Koniec o"
 
 msgctxt "#31166"
 msgid "Local subtitle available"
-msgstr ""
+msgstr "Dostępne lokalne napisy"
 
 msgctxt "#31167"
 msgid "Settings Level:"
-msgstr ""
+msgstr "Poziom ustawień:"
 
 msgctxt "#31168"
 msgid "Reset Level"
@@ -477,10 +474,8 @@ msgstr ""
 
 msgctxt "#31169"
 msgid "Reset Skin"
-msgstr ""
+msgstr "Przywróć domyślne ustawienia skóry"
 
-#: empty strings from id 31170 to 31199
-#: Scripts Labels
 msgctxt "#31200"
 msgid "My Smartish Movies"
 msgstr ""
@@ -495,11 +490,11 @@ msgstr ""
 
 msgctxt "#31203"
 msgid "HD Movies"
-msgstr ""
+msgstr "Filmy HD"
 
 msgctxt "#31204"
 msgid "Top 250 Movies"
-msgstr ""
+msgstr "Top 250 Filmów"
 
 msgctxt "#31205"
 msgid "My Smartish TV Channels"
@@ -523,31 +518,31 @@ msgstr ""
 
 msgctxt "#31210"
 msgid "Recent"
-msgstr ""
+msgstr "Ostatnio dodane"
 
 msgctxt "#31211"
 msgid "Latest Movie"
-msgstr ""
+msgstr "Najnowszy film"
 
 msgctxt "#31212"
 msgid "Latest Episode"
-msgstr ""
+msgstr "Najnowszy odcinek"
 
 msgctxt "#31213"
 msgid "Latest Album"
-msgstr ""
+msgstr "Najnowszy album"
 
 msgctxt "#31214"
 msgid "Airing"
-msgstr ""
+msgstr "Na antenie"
 
 msgctxt "#31215"
 msgid "Next Airs"
-msgstr ""
+msgstr "Następna emisja"
 
 msgctxt "#31216"
 msgid "Last Aired"
-msgstr ""
+msgstr "Ostatnio emitowany"
 
 msgctxt "#31217"
 msgid "Wide Thumb"
@@ -555,15 +550,15 @@ msgstr ""
 
 msgctxt "#31218"
 msgid "Landscape"
-msgstr ""
+msgstr "Wizytownik | Panoramy"
 
 msgctxt "#31219"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 msgctxt "#31220"
 msgid "Extra Info"
-msgstr ""
+msgstr "Ekstra informacje"
 
 msgctxt "#31221"
 msgid "Extra art"
@@ -575,16 +570,15 @@ msgstr ""
 
 msgctxt "#31223"
 msgid "Square"
-msgstr ""
+msgstr "Kwadratowy"
 
-#: empty strings from id 31224 to 31227
 msgctxt "#31228"
 msgid "at"
-msgstr ""
+msgstr "o"
 
 msgctxt "#31229"
 msgid "Last Updated"
-msgstr ""
+msgstr "Ostatnia aktualizacja"
 
 msgctxt "#31230"
 msgid "Data Provider"
@@ -592,14 +586,12 @@ msgstr ""
 
 msgctxt "#31231"
 msgid "Daily"
-msgstr ""
+msgstr "Dziennie"
 
-#: empty string id 31232
 msgctxt "#31233"
 msgid "Location"
-msgstr ""
+msgstr "Lokalizacja"
 
-#: empty strings from id 31234 to 31236
 msgctxt "#31237"
 msgid "Popular People"
 msgstr ""
@@ -618,7 +610,7 @@ msgstr ""
 
 msgctxt "#31241"
 msgid "Recently Added Movies"
-msgstr ""
+msgstr "Filmy ostatnio dodane"
 
 msgctxt "#31242"
 msgid "Recently Added TV Shows"
@@ -626,15 +618,15 @@ msgstr ""
 
 msgctxt "#31243"
 msgid "Recently Added Music"
-msgstr ""
+msgstr "Ostatnio dodana muzyka"
 
 msgctxt "#31244"
 msgid "Kids Movies"
-msgstr ""
+msgstr "Filmy dla dzieci"
 
 msgctxt "#31245"
 msgid "Kids TV Shows"
-msgstr ""
+msgstr "Seriale dla dzieci"
 
 msgctxt "#31246"
 msgid "TV Shows Airing Today"
@@ -642,35 +634,35 @@ msgstr ""
 
 msgctxt "#31247"
 msgid "Random Movies"
-msgstr ""
+msgstr "Losowe filmy"
 
 msgctxt "#31248"
 msgid "Random TV Shows"
-msgstr ""
+msgstr "Losowe seriale TV"
 
 msgctxt "#31249"
 msgid "Random Albums"
-msgstr ""
+msgstr "Losowe albumy"
 
 msgctxt "#31250"
 msgid "Coming Soon"
-msgstr ""
+msgstr "Wkrótce"
 
 msgctxt "#31251"
 msgid "Popular Movies"
-msgstr ""
+msgstr "Filmy popularne"
 
 msgctxt "#31252"
 msgid "Popular TV Shows"
-msgstr ""
+msgstr "Popularne seriale TV"
 
 msgctxt "#31253"
 msgid "Oscars Winners"
-msgstr ""
+msgstr "Zdobywcy Oskarów"
 
 msgctxt "#31254"
 msgid "Search on YouTube"
-msgstr ""
+msgstr "Szukaj w YouTube"
 
 msgctxt "#31255"
 msgid "RSS Video Feeds"
@@ -678,47 +670,47 @@ msgstr ""
 
 msgctxt "#31256"
 msgid "In Cinemas Now"
-msgstr ""
+msgstr "Teraz w kinach"
 
 msgctxt "#31257"
 msgid "Trending Movies"
-msgstr ""
+msgstr "Filmy na czasie"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr ""
+msgstr "Seriale na czasie"
 
 msgctxt "#31259"
 msgid "Random Artists"
-msgstr ""
+msgstr "Losowo artyści"
 
 msgctxt "#31260"
 msgid "Movies In Progress"
-msgstr ""
+msgstr "Filmy w trakcie oglądania"
 
 msgctxt "#31261"
 msgid "TV Shows In Progress"
-msgstr ""
+msgstr "Seriale TV w trakcie oglądania"
 
 msgctxt "#31262"
 msgid "Music In Progress"
-msgstr ""
+msgstr "Muzyka w trakcie słuchania"
 
 msgctxt "#31263"
 msgid "Unwatched Movies"
-msgstr ""
+msgstr "Nie obejrzane filmy"
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
-msgstr ""
+msgstr "Seriale nieobejrzane"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
-msgstr ""
+msgstr "Nie obejrzane odcinki"
 
 msgctxt "#31266"
 msgid "Top Rated Movies"
-msgstr ""
+msgstr "Najwyżej oceniane"
 
 msgctxt "#31267"
 msgid "Top Rated TV Shows"
@@ -726,7 +718,7 @@ msgstr ""
 
 msgctxt "#31268"
 msgid "Random Episodes"
-msgstr ""
+msgstr "Losowe odcinki"
 
 msgctxt "#31269"
 msgid "On-Air TV Shows"
@@ -742,15 +734,15 @@ msgstr ""
 
 msgctxt "#31272"
 msgid "Died"
-msgstr ""
+msgstr "Zmarł"
 
 msgctxt "#31273"
 msgid "Photos"
-msgstr ""
+msgstr "Zdjęcia"
 
 msgctxt "#31274"
 msgid "Random Songs"
-msgstr ""
+msgstr "Losowe utwory"
 
 msgctxt "#31275"
 msgid "Most Watched TV Shows"
@@ -784,19 +776,17 @@ msgctxt "#31282"
 msgid "Reset & Update Info"
 msgstr ""
 
-#: empty strings from id 31283 to 31299
-#: Video and Music OSD Labels
 msgctxt "#31300"
 msgid "Muted"
-msgstr ""
+msgstr "Wyciszony"
 
 msgctxt "#31301"
 msgid "Playing"
-msgstr ""
+msgstr "Odtwarzanie"
 
 msgctxt "#31302"
 msgid "Paused"
-msgstr ""
+msgstr "Pauza"
 
 msgctxt "#31303"
 msgid "Rewinding:"
@@ -804,15 +794,15 @@ msgstr ""
 
 msgctxt "#31304"
 msgid "Forwarding:"
-msgstr ""
+msgstr "Przewijanie w przód:"
 
 msgctxt "#31305"
 msgid "Finish Time:"
-msgstr ""
+msgstr "Koniec:"
 
 msgctxt "#31306"
 msgid "Customize Background"
-msgstr ""
+msgstr "Niestandardowe tło"
 
 msgctxt "#31307"
 msgid "Enable Visualization"
@@ -824,11 +814,11 @@ msgstr ""
 
 msgctxt "#31309"
 msgid "Visualization Presets"
-msgstr ""
+msgstr "Zdefiniowane szablony wizualizacji"
 
 msgctxt "#31310"
 msgid "Visualization Settings"
-msgstr ""
+msgstr "Ustawienia wizualizacji"
 
 msgctxt "#31311"
 msgid "Enable Music Fanart SlideShow"
@@ -852,19 +842,19 @@ msgstr ""
 
 msgctxt "#31316"
 msgid "Now Playing"
-msgstr ""
+msgstr "Teraz odtwarzane"
 
 msgctxt "#31317"
 msgid "Continue watching ?"
-msgstr ""
+msgstr "Kontynuuj oglądanie ?"
 
 msgctxt "#31318"
 msgid "Next Episode will start in..."
-msgstr ""
+msgstr "Następny odcinek zacznie się za..."
 
 msgctxt "#31319"
 msgid "Still watching ?"
-msgstr ""
+msgstr "Nadal oglądasz ?"
 
 msgctxt "#31320"
 msgid "UpNext will stop in..."
@@ -872,37 +862,35 @@ msgstr ""
 
 msgctxt "#31321"
 msgid "Video decoder"
-msgstr ""
+msgstr "Dekoder wideo"
 
 msgctxt "#31322"
 msgid "Pixel format"
-msgstr ""
+msgstr "Format piksela"
 
 msgctxt "#31323"
 msgid "CPU usage"
-msgstr ""
+msgstr "Zużycie CPU"
 
 msgctxt "#31324"
 msgid "Cache level"
 msgstr ""
 
-#: empty strings from id 31325 to 31349
-#: PVR Labels
 msgctxt "#31350"
 msgid "Available Groups"
-msgstr ""
+msgstr "Dostępne grupy"
 
 msgctxt "#31351"
 msgid "Add Group"
-msgstr ""
+msgstr "Dodaj grupę"
 
 msgctxt "#31352"
 msgid "Rename Group"
-msgstr ""
+msgstr "Przemianuj grupę"
 
 msgctxt "#31353"
 msgid "Delete Group"
-msgstr ""
+msgstr "Usuń grupę"
 
 msgctxt "#31354"
 msgid "Hide Group"
@@ -914,25 +902,23 @@ msgstr ""
 
 msgctxt "#31356"
 msgid "Similar"
-msgstr ""
+msgstr "Podobne"
 
 msgctxt "#31357"
 msgid "Timer"
-msgstr ""
+msgstr "Timer"
 
 msgctxt "#31358"
 msgid "Small List"
 msgstr ""
 
-#: empty strings from id 31359 to 31374
-#: Quick Navigation Labels
 msgctxt "#31374"
 msgid "Quick Navigation"
-msgstr ""
+msgstr "Szybka nawigacja"
 
 msgctxt "#31375"
 msgid "Disable Quick Navigation"
-msgstr ""
+msgstr "Wyłącz Szybką Nawigacje"
 
 msgctxt "#31376"
 msgid "Quick Navigation Items"
@@ -950,7 +936,6 @@ msgctxt "#31379"
 msgid "Custom Items"
 msgstr ""
 
-#: empty string id 31380
 msgctxt "#31381"
 msgid "Search Video Library"
 msgstr ""
@@ -965,7 +950,7 @@ msgstr ""
 
 msgctxt "#31384"
 msgid "Search TheMovieDB"
-msgstr ""
+msgstr "Przeszukaj bazę TheMovieDB"
 
 msgctxt "#31385"
 msgid "Search Actors & Directors"
@@ -973,10 +958,8 @@ msgstr ""
 
 msgctxt "#31386"
 msgid "People"
-msgstr ""
+msgstr "Osoby"
 
-#: empty strings from id 31387 to 31408
-#: Settings Category Description & Header Labels
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
 msgstr ""
@@ -985,8 +968,6 @@ msgctxt "#31410"
 msgid "With Kodi you can have several profiles and the auto login option if the login screen is disabled."
 msgstr ""
 
-#: empty strings from id 31411 to 31430
-#: Help Messages
 msgctxt "#31431"
 msgid "You haven't added any items to Favorites yet.[CR]Highlight an item, and choose \"Add to favorites\" from the context menu."
 msgstr ""
