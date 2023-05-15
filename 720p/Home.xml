@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol always="true">20</defaultcontrol>
+	<backgroundcolor>bgcolor</backgroundcolor>
+	<onload>RunScript(script.skinshortcuts,type=buildxml&amp;mode=single&amp;options=clonewidgets&amp;mainmenuID=20)</onload>
+	<onload>ClearProperty(TMDBSearch,Home)</onload>
+	<onload>ClearProperty(YouTubeSearch,Home)</onload>
+	<onload>ClearProperty(AddonsSearch,Home)</onload>
+	<onload>Skin.Reset(TMDBSearchString)</onload>
+	<onload>Skin.Reset(TMDBSearchType)</onload>
+	<onload>Skin.Reset(YouTubeSearchString)</onload>
+	<onload>Skin.Reset(AddonsSearchString)</onload>
+	<onload condition="System.HasAddon(plugin.video.themoviedb.helper)">Skin.SetBool(TMDbHelper.Service)</onload>
+	<onload condition="System.HasAddon(plugin.video.themoviedb.helper)">SetProperty(TMDbHelper.WidgetContainer,25,Home)</onload>
+	<onload condition="!System.HasAddon(resource.images.weathericons.outline) + !String.IsEmpty(Weather.Plugin)">InstallAddon(resource.images.weathericons.outline)</onload>
+	<onload condition="System.HasAddon(service.smartish.widgets)">Skin.SetBool(enable.smartish.widgets)</onload>
+	<onload condition="!System.HasAddon(script.skinshortcuts)">InstallAddon(script.skinshortcuts)</onload>
+	<onload condition="System.HasAddon(script.artistslideshow)">RunScript(script.artistslideshow, daemon=True)</onload>
+	<onunload>ClearProperty(TMDbHelper.WidgetContainer,Home)</onunload>
+	<animation effect="fade" start="0" end="100" time="1000" tween="quadratic" condition="!String.IsEmpty(Window(Home).Property(SmoothStart))">WindowOpen</animation>
+	<controls>
+		<include>BackgroundItems</include>
+		<control type="group">
+			<include>InfoDialogsVisible_ZoomAnimation</include>
+			<include>HomeWidgets_Lists</include>
+			<include>HomeMenuWraplist</include>
+			<include>HomeSubMenus</include>
+			<include>HomeMenuExtraInfo</include>
+			<include>CommonDialogsFadeOutBG</include>
+			<include>HomeWidgets_ContentInfo</include>
+			<include>TopHomeMenu</include>
+			<include>CommonWeatherAndClock</include>
+		</control>
+		<include>HomeNowPlaying</include>
+		<include>DebugInfo</include>
+		<include>DebugWidgets</include>
+		<include content="IamBusyAnimation">
+			<param name="label" value="$LOCALIZE[31225]"/>
+			<param name="visible_1" value="Integer.IsEqual(Container(20).NumItems,0) | Container(20).IsUpdating"/>
+			<param name="include" value="FanartFade2"/>
+		</include>
+
+
+
+
+			<control type="list" id="9994">
+				<description>Sets</description>
+				<include>HiddenListContainer</include>
+				<content sortby="year">$INFO[ListItem.FolderPath]</content>
+			</control>
+
+
+
+
+<!-- ============================== -->
+<!-- ===== DEBUG WIDGETS INFO ===== -->
+<!-- ============================== -->
+	  <control type="grouplist">
+			<top>20</top>
+			<itemgap>-12</itemgap>
+			<visible>Window.IsVisible(Home.xml) + Skin.HasSetting(ShowDebugInfo)</visible>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>[COLOR=FFFF0000]widget:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widget)][/COLOR] || [COLOR=FFFF0000]widgetName:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetName)][/COLOR] || [COLOR=FFFF0000]widgetRatio:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetRatio)][/COLOR] || [COLOR=FFFF0000]widgetAutoHide:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetAutoHide)][/COLOR]</label>
+			</control>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>[COLOR=FFFF0000]widgetType:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetType)][/COLOR] || [COLOR=FFFF0000]widgetTarget:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetTarget)][/COLOR] || [COLOR=FFFF0000]widgetSortby:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetSortby)][/COLOR] || [COLOR=FFFF0000]widgetOrderBy:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetOrderBy)][/COLOR] || [COLOR=FFFF0000]widgetLimit:[/COLOR] [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetLimit)][/COLOR]</label>
+			</control>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>[COLOR=FFFF0000]DBType:[/COLOR] [COLOR=FF00FF00]$INFO[ListItem.DBType][/COLOR] || [COLOR=FFFF0000]DBID Number:[/COLOR][COLOR=FF00FF00] $INFO[ListItem.DBID][/COLOR] || [COLOR=FFFF0000]IMDB Number:[/COLOR][COLOR=FF00FF00] $INFO[ListItem.IMDBNumber][/COLOR] || [COLOR=FFFF0000]TMDB Number:[/COLOR][COLOR=FF00FF00] $INFO[ListItem.Property(tmdb_id)][/COLOR]</label>
+			</control>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>ListItem.Property(widgetPath): [COLOR=FF00FF00]$INFO[Container(20).ListItem.Property(widgetPath)][/COLOR]</label>
+			</control>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>ListItem.FolderPath: [COLOR=FF00FF00]$INFO[ListItem.FolderPath][/COLOR]</label>
+			</control>
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>Main Menu Path: $INFO[Container.ListItem.Property(path)]</label>
+			</control>
+			<!--
+			<control type="label">
+				<font>TextboxFont_15B</font>
+				<align>center</align>
+				<label>ListItem.Art(fanart): $INFO[ListItem.Art(fanart)]</label>
+			</control>
+			-->
+		</control>
+		<control type="label">
+			<left>5</left>
+			<bottom>40</bottom>
+			<font>FontSize_15B</font>
+			<align>center</align>
+			<label>[COLOR=FFFF0000]Trailer: [/COLOR][COLOR=FF00FF00]$INFO[ListItem.Trailer][/COLOR] || [COLOR=FFFF0000]TMDb Traler: [/COLOR][COLOR=FF00FF00]$INFO[Window(Home).Property(TMDbHelper.ListItem.Trailer)][/COLOR]</label>
+			<visible>Skin.HasSetting(ShowDebugInfo) + !Player.HasMedia</visible>
+		</control>
+	</controls>
+</window>
