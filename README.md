@@ -18,7 +18,7 @@ Any redistribution of this software (or modifications / derivatives of it) must 
 
 
 ## About
-This is the 8th generation of Bello for Kodi Home Theater Software. Bello is a Graphical User Interface (GUI) for Kodi, an award-winning free and Open Source Home Theater Software available on [Windows](https://kodi.tv/download/849), [OSX](https://kodi.tv/download/851), [Linux](https://kodi.tv/download/850), [Android](https://kodi.tv/download/852), [iOS](https://kodi.tv/download/854) and [Raspberry Pi](https://kodi.tv/download/853). Bello 9 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!
+This is the 9th generation of Bello for Kodi (Nexus) Home Theater Software. Bello is a Graphical User Interface (GUI) for Kodi, an award-winning free and Open Source Home Theater Software available on [Windows](https://kodi.tv/download/849), [OSX](https://kodi.tv/download/851), [Linux](https://kodi.tv/download/850), [Android](https://kodi.tv/download/852), [iOS](https://kodi.tv/download/854) and [Raspberry Pi](https://kodi.tv/download/853). Bello 9 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!
 <br><br>
 
 ## Compatibility
