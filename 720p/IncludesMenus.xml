@@ -217,7 +217,7 @@
 			<textwidth>320</textwidth>
 			<textoffsetx>23</textoffsetx>
 			<textoffsety>7</textoffsety>
-			<texturefocus border="1">buttons/focus.png</texturefocus>
+			<texturefocus	border="22,2,20,2" colordiffuse="$VAR[Textures.GlobalColor]">dialogs/keyboard/button_fo.png</texturefocus>
 			<texturenofocus border="1">buttons/nofocus.png</texturenofocus>
 		</control>
 	</include>

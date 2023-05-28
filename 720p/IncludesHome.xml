@@ -123,7 +123,7 @@
 				<control type="label">
 					<top>28</top>
 					<width>700</width>
-					<height>15</height>
+					<height>18</height>
 					<font>FontSize_20</font>
 					<label>$PARAM[label_one]</label>
 					<textcolor>viewsinfo</textcolor>
@@ -131,7 +131,7 @@
 				<control type="label">
 					<top>50</top>
 					<width>700</width>
-					<height>15</height>
+					<height>18</height>
 					<font>FontSize_20</font>
 					<label>$PARAM[label_two]</label>
 					<textcolor>viewsinfo</textcolor>
@@ -642,7 +642,7 @@
 			<control type="label">
 				<left>725</left>
 				<top>0</top>
-				<height>30</height>
+				<height>28</height>
 				<width>450</width>
 				<align>right</align>
 				<aligny>center</aligny>
@@ -653,7 +653,7 @@
 			<control type="label">
 				<left>725</left>
 				<top>20</top>
-				<height>30</height>
+				<height>32</height>
 				<width>450</width>
 				<align>right</align>
 				<aligny>center</aligny>

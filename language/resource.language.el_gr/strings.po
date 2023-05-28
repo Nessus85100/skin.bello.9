@@ -627,6 +627,9 @@ msgctxt "#31230"
 msgid "Data Provider"
 msgstr "Πάροχος Δεδομένων"
 
+msgctxt "#31231"
+msgid "Daily"
+msgstr "Ημερήσια"
 
 msgctxt "#31232"
 msgid "Weather Hourly Forecast"

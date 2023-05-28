@@ -108,12 +108,12 @@
 	<expression name="SlideViewVideos_51">$EXP[MoviesTVShowsCondition] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 	<expression name="GalleryViewVideos_52">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes) | Container.Content(MusicVideos)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 	<expression name="ThumbnailsViewPosters_561">$EXP[MoviesTVShowsCondition] | Container.Content(MusicVideos) | Container.Content(Actors) | Window.IsVisible(VideoPlaylist)</expression>
-	<expression name="TilesViewVideos_562">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes) | Container.Content(MusicVideos)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
+	<expression name="TilesViewVideos_562">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes) | Container.Content(MusicVideos)] + !$EXP[MoviesSetsCondition] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 	<expression name="PostersViewVideos_55">[Container.Content(Movies) | Container.Content(Sets)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 	<expression name="PostersViewVideos2_64">[Container.Content(Movies) | Container.Content(Sets)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
-	<expression name="BannersViewVideos_57">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
+	<expression name="BannersViewVideos_57">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes)] + !$EXP[MoviesSetsCondition] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 	<expression name="NetfilxViewVideos_59">[$EXP[MoviesTVShowsCondition] | Container.Content(Episodes)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
-	<expression name="WallViewsCondition">[Container.Content(Movies) | Container.Content(Sets) | Container.Content(TVShows)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
+	<expression name="WallViewsCondition">[Container.Content(Movies) | Container.Content(TVShows)] + !String.StartsWith(Container.FolderPath,plugin://)</expression>
 
 	<expression name="SlideViewMusic_51">$EXP[MusicCondition] | Container.Content(MusicVideos)</expression>
 	<expression name="GalleryViewMusic_52">[$EXP[MusicCondition] | Container.Content(MusicVideos)] + ![String.StartsWith(Container.Folderpath,plugin://) | String.IsEmpty(Container.Folderpath)]</expression>
@@ -131,7 +131,7 @@
 	<expression name="BelloViewGeneric_660">![Container.Content(Movies) | String.IsEqual(ListItem.DBType,movie) | Container.Content(Sets) | String.IsEqual(ListItem.DBType,set) | Container.Content(TVShows) | String.IsEqual(ListItem.DBType,tvshow) | Container.Content(Seasons) | String.IsEqual(ListItem.DBType,season) | Container.Content(Episodes) | String.IsEqual(ListItem.DBType,episode) | Container.Content(MusicVideos) | String.IsEqual(ListItem.DBType,musicvideo) | Window.IsVisible(VideoPlaylist) | Container.Content(Actors)]</expression>
 	<expression name="ThumbnailsViewGeneric_56">![$EXP[MusicCondition] | $EXP[MoviesTVShowsCondition] | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,season) | Container.Content(Episodes) | String.IsEqual(ListItem.DBType,episode) | Container.Content(MusicVideos) | String.IsEqual(ListItem.DBType,musicvideo) | Window.IsVisible(VideoPlaylist) | Container.Content(Actors) | Container.Content(Addons) | Container.Content(Images) | [Container.Content(Videos) + String.StartsWith(Container.FolderPath,plugin://)]]</expression>
 
-	<expression name="MoviesSetsCondition">[Container.Content(Sets) | String.StartsWith(ListItem.Path,videodb://movies/sets/)]</expression>
+	<expression name="MoviesSetsCondition">[Container.Content(Sets) | String.StartsWith(ListItem.Path,videodb://movies/sets/) | String.IsEqual(ListItem.DBType,set)]</expression>
 	<expression name="MoviesTVShowsCondition">Container.Content(Movies) | $EXP[MoviesSetsCondition] | Container.Content(TVShows) | Container.Content(Seasons)</expression>
 	<expression name="MusicCondition">Container.Content(Artists) | Container.Content(Albums) | Container.Content(Songs)</expression>
 	<expression name="GenericVideoFilesCondition">[Window.IsVisible(Videos) + Container.Content(Files) + Container.HasFiles] | Container.Content(Videos) | Container.Content(Favourites)</expression>
@@ -355,6 +355,7 @@
 				<height>23</height>
 				<aspectratio align="center" aligny="center">keep</aspectratio>
 				<texture background="true">$VAR[StarRating]</texture>
+				<visible>!$EXP[MoviesSetsCondition]</visible>
 			</control>
 			<!-- Info -->
 			<control type="label">
@@ -368,31 +369,31 @@
 			</control>
 			<control type="textbox">
 				<left>422</left>
-				<top>467</top>
+				<top>458</top>
 				<width>428</width>
-				<height>135</height>
-				<font>FontSize_20</font>
+				<height>145</height>
+				<font>TextboxFont_22</font>
 				<textcolor>viewsinfo</textcolor>
 				<align>justify</align>
 				<autoscroll delay="8000" time="2000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<label>$VAR[GlobalPlotDescription]</label>
-				<visible>!String.StartsWith(ListItem.Path,videodb://movies/sets/)</visible>
+				<visible>!$EXP[MoviesSetsCondition]</visible>
 			</control>
 			<control type="textbox">
-				<left>243</left>
-				<top>465</top>
+				<left>245</left>
+				<top>429</top>
 				<width>605</width>
-				<height>135</height>
-				<font>FontSize_20</font>
+				<height>175</height>
+				<font>TextboxFont_22</font>
 				<textcolor>viewsinfo</textcolor>
 				<align>justify</align>
 				<autoscroll delay="4000" time="2000" repeat="8000">!Window.IsActive(Textviewer)</autoscroll>
 				<label>$VAR[GlobalPlotDescription]</label>
-				<visible>Container.Content(Sets) | String.StartsWith(ListItem.Path,videodb://movies/sets/)</visible>
+				<visible>$EXP[MoviesSetsCondition]</visible>
 			</control>
 			<control type="grouplist">
 				<left>243</left>
-				<top>468</top>
+				<top>466</top>
 				<width>195</width>
 				<height>200</height>
 				<itemgap>1.5</itemgap>
@@ -503,20 +504,20 @@
 				<label>$VAR[ListView_BlueLabelVar]</label>
 			</control>
 			<control type="textbox">
-				<left>428</left>
-				<top>442</top>
-				<width>415</width>
-				<height>140</height>
-				<font>FontSize_20</font>
+				<left>427</left>
+				<top>435</top>
+				<width>410</width>
+				<height>145</height>
+				<font>TextboxFont_22</font>
 				<textcolor>viewsinfo</textcolor>
 				<align>justify</align>
 				<autoscroll delay="8000" time="2000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
 				<label fallback="195">$VAR[GlobalPlotDescription]</label>
 			</control>
 			<control type="grouplist">
-				<left>240</left>
+				<left>243</left>
 				<top>443</top>
-				<width>200</width>
+				<width>195</width>
 				<height>200</height>
 				<itemgap>1.5</itemgap>
 				<control type="label">
@@ -813,7 +814,7 @@
 			<width>390</width>
 			<height>220</height>
 			<colordiffuse>$PARAM[colordiffuse]</colordiffuse>
-			<aspectratio aligny="center" align="center">scale</aspectratio>
+			<aspectratio aligny="center" align="center">keep</aspectratio>
 			<texture background="true">$VAR[VarArtMusicFanart]</texture>
 			<bordersize>1</bordersize>
 			<visible>Window.IsVisible(MyMusicNav.xml)</visible>
@@ -885,7 +886,7 @@
 				<top>55</top>
 				<width>370</width>
 				<height>120</height>
-				<font>TextboxFont_20</font>
+				<font>TextboxFont_22</font>
 				<textcolor>$PARAM[textcolor]</textcolor>
 				<shadowcolor>$PARAM[shadowcolor]</shadowcolor>
 				<label>$VAR[GlobalPlotDescription]</label>
@@ -954,7 +955,7 @@
 		<colordiffuse>viewsinfo</colordiffuse>
 		<aspectratio>keep</aspectratio>
 		<texture background="true">flags/sets/sets.png</texture>
-		<visible>$EXP[MoviesSetsCondition]</visible>
+		<visible>$EXP[MoviesSetsCondition] + !ListItem.IsParentFolder</visible>
 	</include>
 	<include name="SmallDownInfo_MPAATVFlags">
 		<width>56</width>
@@ -1831,6 +1832,7 @@
 	</variable>
 
 	<variable name="VarArtMusicFanart">
+		<value condition="[Control.IsVisible(562) + Container.Content(Artists)] + !String.IsEmpty(ListItem.Art(clearlogo))">$INFO[ListItem.Art(clearlogo)]</value>
 		<value condition="!String.IsEmpty(ListItem.Art(fanart))">$INFO[ListItem.Art(fanart)]</value>
 		<value condition="[Control.IsVisible(50) + Container.Content(Addons)] + !ListItem.IsParentFolder">$INFO[ListItem.ActualIcon,thumbs/,/fallback_fanart_tp.png]</value>
 		<value condition="[Control.IsVisible(50) + Container.Content(Artists)] + !ListItem.IsParentFolder">$INFO[ListItem.ActualIcon,thumbs/,/fallback_fanart_tp.png]</value>

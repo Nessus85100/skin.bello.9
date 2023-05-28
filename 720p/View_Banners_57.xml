@@ -126,9 +126,9 @@
 						</control>
 						<control type="textbox">
 							<left>180</left>
-							<top>76</top>
+							<top>78</top>
 							<width>535</width>
-							<height>120</height>
+							<height>110</height>
 							<font>TextboxFont_20</font>
 							<textcolor>viewsinfo</textcolor>
 							<label>$INFO[ListItem.Plot]</label>
@@ -256,7 +256,7 @@
 						</control>
 						<control type="label">
 							<left>315</left>
-							<top>22</top>
+							<top>25</top>
 							<width>405</width>
 							<font>FontSize_26</font>
 							<label>$VAR[ListItem_LabelVar]</label>
@@ -264,7 +264,7 @@
 						</control>
 						<control type="label">
 							<left>315</left>
-							<top>47</top>
+							<top>50</top>
 							<width>400</width>
 							<font>FontSize_20</font>
 							<textcolor>viewsinfo</textcolor>
@@ -273,9 +273,9 @@
 						</control>
 						<control type="textbox">
 							<left>315</left>
-							<top>76</top>
+							<top>80</top>
 							<width>400</width>
-							<height>120</height>
+							<height>110</height>
 							<font>TextboxFont_20</font>
 							<textcolor>viewsinfo</textcolor>
 							<label>$VAR[GlobalPlotDescription]</label>
@@ -411,7 +411,7 @@
 						</control>
 						<control type="label">
 							<left>245</left>
-							<top>22</top>
+							<top>27</top>
 							<width>475</width>
 							<label>$VAR[ListItem_LabelVar]</label>
 							<font>FontSize_26</font>
@@ -419,7 +419,7 @@
 						</control>
 						<control type="label">
 							<left>245</left>
-							<top>22</top>
+							<top>27</top>
 							<width>475</width>
 							<label>$INFO[ListItem.Title]</label>
 							<font>FontSize_26</font>
@@ -427,7 +427,7 @@
 						</control>
 						<control type="label">
 							<left>245</left>
-							<top>47</top>
+							<top>53</top>
 							<width>475</width>
 							<label>$VAR[ListItem_SubLabelVar]</label>
 							<font>FontSize_20</font>
@@ -436,9 +436,9 @@
 						</control>
 						<control type="textbox">
 							<left>245</left>
-							<top>77</top>
+							<top>85</top>
 							<width>470</width>
-							<height>120</height>
+							<height>110</height>
 							<font>TextboxFont_20</font>
 							<textcolor>viewsinfo</textcolor>
 							<label>$VAR[GlobalPlotDescription]</label>
@@ -455,7 +455,7 @@
 						</control>
 						<control type="label">
 							<left>285</left>
-							<top>205</top>
+							<top>208</top>
 							<height>22</height>
 							<width>355</width>
 							<textcolor>viewsinfo</textcolor>

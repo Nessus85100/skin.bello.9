@@ -16,46 +16,46 @@
    <name>TextboxFont_15</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>15</size>
-   <linespacing>0.75</linespacing>
+   <linespacing>0.80</linespacing>
   </font>
   <font>
    <name>TextboxFont_15B</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>15</size>
-   <linespacing>0.75</linespacing>
+   <linespacing>0.80</linespacing>
    <style>bold</style>
   </font>
   <font>
    <name>TextboxFont_16B</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>16</size>
-   <linespacing>0.75</linespacing>
+   <linespacing>0.80</linespacing>
    <style>bold</style>
   </font>
   <font>
    <name>TextboxFont_18</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>18</size>
-   <linespacing>0.75</linespacing>
+   <linespacing>0.80</linespacing>
   </font>
   <font>
    <name>TextboxFont_18B</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>18</size>
-   <linespacing>0.75</linespacing>
+   <linespacing>0.80</linespacing>
    <style>bold</style>
   </font>
   <font>
    <name>TextboxFont_20</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>20</size>
-   <linespacing>0.85</linespacing>
+   <linespacing>0.89</linespacing>
   </font>
   <font>
    <name>TextboxFont_22</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>22</size>
-   <linespacing>0.85</linespacing>
+   <linespacing>0.89</linespacing>
   </font>
   <font>
    <name>BackFont_22</name>

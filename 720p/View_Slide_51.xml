@@ -116,20 +116,20 @@
 				</animation>
 				<visible>Control.HasFocus(100)</visible>
 				<include content="HomeWidgetsSubLabel">
-					<param name="top" value="250"/>
+					<param name="top" value="255"/>
 					<param name="width" value="935"/>
 					<param name="label" value="$INFO[ListItem.Genre]"/>
 				</include>
 				<include content="PlotTextbox">
-					<param name="top" value="295"/>
+					<param name="top" value="286"/>
 					<param name="width" value="935"/>
-					<param name="height" value="185"/>
+					<param name="height" value="190"/>
 					<param name="visible" value="!$EXP[MoviesSetsCondition]"/>
 				</include>
 				<include content="PlotTextbox">
 					<param name="top" value="300"/>
 					<param name="width" value="935"/>
-					<param name="height" value="185"/>
+					<param name="height" value="225"/>
 					<param name="visible" value="$EXP[MoviesSetsCondition]"/>
 				</include>
 			</control>
@@ -266,7 +266,7 @@
 				</animation>
 				<visible>![String.IsEmpty(Container.ListItem.Property(Album_Description)) + String.IsEmpty(Container.ListItem.Property(Artist_Description)) + String.IsEmpty(Container.ListItem.Comment) + String.IsEmpty(Container.ListItem.Plot)] + Control.HasFocus(100)</visible>
 				<include content="HomeWidgetsSubLabel">
-					<param name="top" value="260"/>
+					<param name="top" value="265"/>
 					<param name="width" value="935"/>
 					<param name="label" value="$VAR[ListItem_SubLabelTwoVar]"/>
 				</include>

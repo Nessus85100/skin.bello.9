@@ -173,8 +173,16 @@
 				<include content="PlotTextbox">
 					<param name="top" value="22"/>
 					<param name="width" value="1190"/>
-					<param name="height" value="56"/>
+					<param name="height" value="60"/>
 					<param name="font" value="TextboxFont_22"/>
+					<param name="visible" value="!$EXP[MoviesSetsCondition]"/>
+				</include>
+				<include content="PlotTextbox">
+					<param name="top" value="0"/>
+					<param name="width" value="1190"/>
+					<param name="height" value="90"/>
+					<param name="font" value="TextboxFont_22"/>
+					<param name="visible" value="$EXP[MoviesSetsCondition]"/>
 				</include>
 			</control>
 			<!-- Media Flaggs -->
@@ -356,7 +364,7 @@
 				<include content="PlotTextbox">
 					<param name="top" value="25"/>
 					<param name="width" value="1190"/>
-					<param name="height" value="55"/>
+					<param name="height" value="60"/>
 					<param name="font" value="TextboxFont_22"/>
 				</include>
 			</control>

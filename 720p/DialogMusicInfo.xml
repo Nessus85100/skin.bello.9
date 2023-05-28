@@ -187,14 +187,14 @@
 					<top>322</top>
 					<width>650</width>
 					<include content="InfoDialogsDescription">
-						<param name="left" value="0"/>
-						<param name="top" value="8"/>
+						<param name="textbox_top" value="3"/>
 						<param name="textbox_width" value="580"/>
-						<param name="textbox_height" value="160"/>
+						<param name="textbox_height" value="175"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>
 						<param name="onright" value="9005"/>
+						<param name="button_top" value="-8"/>
 						<param name="button_width" value="582"/>
 						<param name="button_height" value="200"/>
 						<param name="label" value="[COLOR=white]$VAR[BiographyReview_HeadLabel]:[/COLOR][CR]$VAR[InfoDialogsDescriptionLabel]"/>

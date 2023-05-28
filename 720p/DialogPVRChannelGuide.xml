@@ -38,7 +38,7 @@
 					<top>32</top>
 					<width>295</width>
 					<height>25</height>
-					<font>FontSize_18</font>
+					<font>FontSize_20</font>
 					<label>$INFO[Container(11).ListItem.StartTime,, - ]$INFO[Container(11).ListItem.EndTime]</label>
 					<textcolor>viewsinfo</textcolor>
 					<scroll>false</scroll>
@@ -46,10 +46,10 @@
 				</control>
 				<control type="textbox">
 					<left>10</left>
-					<top>65</top>
+					<top>58</top>
 					<width>295</width>
-					<height>125</height>
-					<font>FontSize_18</font>
+					<height>145</height>
+					<font>TextboxFont_20</font>
 					<textcolor>viewsinfo</textcolor>
 					<align>justify</align>
 					<autoscroll delay="8000" time="2000" repeat="8000">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -57,10 +57,10 @@
 				</control>
 				<control type="label">
 					<left>10</left>
-					<top>200</top>
+					<top>203</top>
 					<width>295</width>
 					<height>45</height>
-					<font>FontSize_18B</font>
+					<font>FontSize_20B</font>
 					<textcolor>viewsinfo</textcolor>
 					<label>$INFO[Container(11).ListItem.Genre]</label>
 					<scroll>false</scroll>

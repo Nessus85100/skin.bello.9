@@ -158,7 +158,7 @@
 					<onright>10</onright>
 					<onup>17</onup>
 					<ondown>11</ondown>
-					<textoffsetx>8</textoffsetx>
+					<textoffsetx>10</textoffsetx>
 					<textoffsety>-3</textoffsety>
 			    <font>FontSize_28B</font>
 			    <label>◀</label>
@@ -186,7 +186,7 @@
 					<onup>19</onup>
 					<ondown>13</ondown>
 			    <align>right</align>
-					<textoffsetx>8</textoffsetx>
+					<textoffsetx>10</textoffsetx>
 					<textoffsety>-3</textoffsety>
 			    <font>FontSize_28B</font>
 			    <label>▶</label>
@@ -205,7 +205,7 @@
 					<onup>21</onup>
 					<ondown>21</ondown>
 					<font>FontSize_14B</font>
-					<textoffsetx>25</textoffsetx>
+					<textoffsetx>22</textoffsetx>
 					<textoffsety>93</textoffsety>
 					<textwidth>120</textwidth>
 				  <angle>90</angle>
@@ -224,7 +224,7 @@
 					<onup>23</onup>
 					<ondown>23</ondown>
 					<font>FontSize_14B</font>
-					<textoffsetx>25</textoffsetx>
+					<textoffsetx>22</textoffsetx>
 					<textoffsety>93</textoffsety>
 					<textwidth>120</textwidth>
 				  <angle>90</angle>

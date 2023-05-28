@@ -163,7 +163,7 @@
 				<!-- Labels -->
 				<control type="group">
 					<left>265</left>
-					<top>245</top>
+					<top>248</top>
 					<visible>String.IsEmpty(Window.Property(videoinfo))</visible>
 					<!-- Part 1 -->
 					<control type="grouplist">
@@ -266,19 +266,20 @@
 					<width>965</width>
 					<visible>String.IsEmpty(Window.Property(videoinfo))</visible>
 					<include content="VideoInfoSeperator">
-						<param name="top" value="-12"/>
+						<param name="top" value="-5"/>
 						<param name="width" value="965"/>
 					</include>
 					<include content="InfoDialogsDescription">
-						<param name="top" value="-5"/>
+						<param name="textbox_top" value="7"/>
 						<param name="textbox_width" value="965"/>
-						<param name="textbox_height" value="105"/>
+						<param name="textbox_height" value="90"/>
 						<param name="font" value="TextboxFont_22"/>
-						<param name="button_width" value="967"/>
-						<param name="button_height" value="119"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>
 						<param name="onright" value="50"/>
+						<param name="button_top" value="-4"/>
+						<param name="button_width" value="967"/>
+						<param name="button_height" value="114"/>
 						<param name="label" value="$INFO[ListItem.Plot]"/>
 					</include>
 				</control>

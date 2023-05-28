@@ -176,7 +176,7 @@
 			<!-- Info -->
 			<control type="group">
 				<left>570</left>
-				<top>183</top>
+				<top>188</top>
 				<include>InfoDialogsVisible_ZoomAnimation</include>
 				<include>TextViewerHideAnimations</include>
 				<animation effect="fade" start="100" end="0" time="300" condition="Control.IsVisible(5401) | Control.IsVisible(5402)">Conditional</animation>
@@ -206,16 +206,16 @@
 					<label>$INFO[ListItem.Genre]</label>
 				</control>
 				<include content="PlotTextbox">
-					<param name="top" value="60"/>
+					<param name="top" value="70"/>
 					<param name="width" value="400"/>
-					<param name="height" value="300"/>
+					<param name="height" value="285"/>
 					<param name="textcolor" value="white"/>
 					<param name="visible" value="!$EXP[MoviesSetsCondition]"/>
 				</include>
 				<include content="PlotTextbox">
-					<param name="top" value="30"/>
+					<param name="top" value="35"/>
 					<param name="width" value="400"/>
-					<param name="height" value="330"/>
+					<param name="height" value="315"/>
 					<param name="textcolor" value="white"/>
 					<param name="visible" value="$EXP[MoviesSetsCondition]"/>
 				</include>

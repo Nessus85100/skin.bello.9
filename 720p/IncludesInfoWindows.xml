@@ -21,7 +21,7 @@
 	<include name="InfoDialogsDescription">
 		<control type="button" id="44">
 			<left>-1</left>
-			<top>-10</top>
+			<top>$PARAM[button_top]</top>
 			<width>$PARAM[button_width]</width>
 			<height>$PARAM[button_height]</height>
 			<onup>$PARAM[onup]</onup>
@@ -34,7 +34,7 @@
 		</control>
 		<control type="textbox">
 			<left>2</left>
-			<top>$PARAM[top]</top>
+			<top>$PARAM[textbox_top]</top>
 			<width>$PARAM[textbox_width]</width>
 			<height>$PARAM[textbox_height]</height>
 			<font>$PARAM[font]</font>
@@ -270,7 +270,7 @@
 							<width>164</width>
 							<height>40</height>
 							<textcolor>viewsinfo</textcolor>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -325,7 +325,7 @@
 							<top>255</top>
 							<width>164</width>
 							<height>40</height>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -357,7 +357,7 @@
 							<height>40</height>
 							<width>235</width>
 							<textcolor>viewsinfo</textcolor>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -403,7 +403,7 @@
 							<top>140</top>
 							<height>40</height>
 							<width>235</width>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -435,7 +435,7 @@
 							<height>40</height>
 							<width>209</width>
 							<textcolor>viewsinfo</textcolor>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -481,7 +481,7 @@
 							<top>120</top>
 							<height>40</height>
 							<width>209</width>
-							<font>FontSize_15B</font>
+							<font>TextboxFont_15B</font>
 							<label>$PARAM[list_label]</label>
 						</control>
 					</control>
@@ -1017,9 +1017,9 @@
 
 	<include name="AlbumsTracksListVars">
 		<left>0</left>
-		<top>20</top>
+		<top>25</top>
 		<width>300</width>
-		<height>258</height>
+		<height>256</height>
 		<onup>9000</onup>
 		<onleft>9003</onleft>
 		<scrolltime tween="quadratic" easing="out">250</scrolltime>
@@ -1055,7 +1055,7 @@
 				<top>2</top>
 				<width>200</width>
 				<height>82</height>
-				<font>FontSize_20</font>
+				<font>TextboxFont_20</font>
 				<textcolor>viewsinfo</textcolor>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
@@ -1092,7 +1092,7 @@
 					<top>2</top>
 					<width>200</width>
 					<height>82</height>
-					<font>FontSize_20</font>
+					<font>TextboxFont_20</font>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Label2, (,)]</label>
 				</control>
@@ -1112,10 +1112,10 @@
 			</control>
 			<control type="textbox">
 				<left>65</left>
-				<top>4</top>
+				<top>-9</top>
 				<width>200</width>
-				<height>57</height>
-				<font>FontSize_18</font>
+				<height>82</height>
+				<font>TextboxFont_20</font>
 				<textcolor>viewsinfo</textcolor>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label]$INFO[ListItem.Duration, (,)]</label>
@@ -1134,10 +1134,10 @@
 				</control>
 				<control type="textbox">
 					<left>65</left>
-					<top>4</top>
+					<top>-9</top>
 					<width>200</width>
-					<height>57</height>
-					<font>FontSize_18</font>
+					<height>82</height>
+					<font>TextboxFont_20</font>
 					<aligny>center</aligny>
 					<label>$INFO[ListItem.Label]$INFO[ListItem.Duration, (,)]</label>
 				</control>

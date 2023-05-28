@@ -349,7 +349,7 @@
 				<control type="textbox">
 					<top>25</top>
 					<width>850</width>
-					<height>80</height>
+					<height>86</height>
 					<font>TextboxFont_22</font>
 					<textcolor>viewsinfo</textcolor>
 					<align>left</align>
@@ -417,7 +417,7 @@
 			<control type="textbox">
 				<top>75</top>
 				<width>900</width>
-				<height>55</height>
+				<height>60</height>
 				<font>TextboxFont_22</font>
 				<textcolor>viewsinfo</textcolor>
 				<align>left</align>

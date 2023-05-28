@@ -78,9 +78,11 @@
 		<description>Default SpinControlex</description>
 		<height>47</height>
 		<font>FontSize_22</font>
+		<aligny>top</aligny>
 		<texturenofocus	border="1">buttons/nofocus.png</texturenofocus>
 		<spinposx>11</spinposx>
 		<textoffsetx>10</textoffsetx>
+		<textoffsety>6</textoffsety>
 		<reverse>yes</reverse>
 	</include>
 
@@ -104,7 +106,7 @@
 		<align>center</align>
 		<aligny>top</aligny>
 		<textoffsetx>20</textoffsetx>
-		<textoffsety>5</textoffsety>
+		<textoffsety>1</textoffsety>
 		<texturefocus	border="22,2,20,2" colordiffuse="$VAR[Textures.GlobalColor]">dialogs/keyboard/button_fo.png</texturefocus>
 		<texturenofocus	border="22,2,20,2">dialogs/keyboard/button_nf.png</texturenofocus>
 	</include>
@@ -139,11 +141,10 @@
 		<height>48</height>
 		<texturefocus	border="4,6,4,6" colordiffuse="$VAR[Textures.GlobalColor]">dialogs/keyboard/button_fo.png</texturefocus>
 		<texturenofocus	border="4,6,4,6">dialogs/keyboard/button_nf.png</texturenofocus>
-		<align>left</align>
 		<aligny>top</aligny>
 		<font>FontSize_16B</font>
 		<textoffsetx>10</textoffsetx>
-		<textoffsety>5</textoffsety>
+		<textoffsety>2</textoffsety>
 		<textcolor>viewsinfo</textcolor>
 		<focusedcolor>white</focusedcolor>
 	</include>
@@ -392,11 +393,11 @@
 			<left>15</left>
 			<top>62</top>
 			<width>630</width>
-			<height>90</height>
+			<height>95</height>
 			<font>FontSize_22</font>
 			<textcolor>viewsinfo</textcolor>
 			<autoscroll	time="3000"	delay="3000" repeat="5000">true</autoscroll>
-			<!-- <label>Remove ID	to Test, Remove	ID to	Test,	Remove ID	to Test, Remove	ID to	Test,	Remove ID	to Test, Remove	ID to	Test,	Remove ID	to Test, Remove	ID to	Test,	Remove ID	to Test, Remove	ID to	Test,	Remove ID	to Test, Remove	ID to	Test</label> -->
+			<!-- <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris gy nisi ut aliquip ex ea commodo consequat.</label> -->
 		</control>
 		<control type="grouplist">
 			<left>20</left>
@@ -512,7 +513,7 @@
 				<left>0</left>
 				<top>50</top>
 				<width>1190</width>
-				<height>530</height>
+				<height>520</height>
 				<label></label>
 				<font>FontSize_24</font>
 				<textcolor>viewsinfo</textcolor>
@@ -583,7 +584,7 @@
 						<top>0</top>
 						<width>540</width>
 						<height>48</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<textcolor>viewsinfo</textcolor>
 						<selectedcolor>$VAR[Text.GlobalColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
@@ -612,7 +613,7 @@
 						<top>0</top>
 						<width>540</width>
 						<height>48</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<scroll>true</scroll>
@@ -671,7 +672,7 @@
 						<top>10</top>
 						<width>475</width>
 						<height>26</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<textcolor>viewsinfo</textcolor>
 						<selectedcolor>$VAR[Text.GlobalColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
@@ -682,7 +683,7 @@
 						<top>34</top>
 						<width>475</width>
 						<height>26</height>
-						<font>FontSize_20</font>
+						<font>FontSize_18</font>
 						<textcolor>viewsinfo</textcolor>
 						<selectedcolor>$VAR[Text.GlobalColor]</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
@@ -732,7 +733,7 @@
 						<top>10</top>
 						<width>475</width>
 						<height>26</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 						<animation effect="slide"	end="0,12" time="0"	reversible="false" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
@@ -742,7 +743,7 @@
 						<top>34</top>
 						<width>475</width>
 						<height>26</height>
-						<font>FontSize_20</font>
+						<font>FontSize_18</font>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label2]</label>
 					</control>
@@ -867,7 +868,7 @@
 						<top>0</top>
 						<width>540</width>
 						<height>48</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<textcolor>viewsinfo</textcolor>
 						<selectedcolor>$VAR[Text.GlobalColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
@@ -896,7 +897,7 @@
 						<top>0</top>
 						<width>540</width>
 						<height>48</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<selectedcolor>white</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
 					</control>
@@ -945,7 +946,7 @@
 						<top>0</top>
 						<width>225</width>
 						<height>56</height>
-						<font>FontSize_20</font>
+						<font>FontSize_22</font>
 						<textcolor>viewsinfo</textcolor>
 						<selectedcolor>$VAR[Text.GlobalColor]</selectedcolor>
 						<label>$INFO[ListItem.Label]</label>
@@ -976,7 +977,7 @@
 							<top>0</top>
 							<width>225</width>
 							<height>56</height>
-							<font>FontSize_20</font>
+							<font>FontSize_22</font>
 							<selectedcolor>white</selectedcolor>
 							<label>$INFO[ListItem.Label]</label>
 						</control>
@@ -1396,6 +1397,8 @@
 	<!-- Trailers	Window -->
 	<!-- =============== -->
 	<include name="TrailersPanel">
+		<param name="bordertexture">dialogs/other/trailers_icon__panel.png</param>
+		<definition>
 		<control type="group">
 			<left>45</left>
 			<top>0</top>
@@ -1548,6 +1551,7 @@
 				</include>
 			</control>
 		</control>
+		</definition>
 	</include>
 
 	<variable	name="Trailers_CustomClick">

@@ -127,42 +127,42 @@
 					<top>315</top>
 					<width>650</width>
 					<include content="InfoDialogsDescription">
-						<param name="left" value="0"/>
-						<param name="top" value="3"/>
+						<param name="textbox_top" value="3"/>
 						<param name="textbox_width" value="650"/>
 						<param name="textbox_height" value="232"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>
 						<param name="onright" value="50"/>
+						<param name="button_top" value="-8"/>
 						<param name="button_width" value="652"/>
 						<param name="button_height" value="255"/>
 						<param name="label" value="[COLOR=white]$LOCALIZE[21821]:[/COLOR][CR]$VAR[InfoDialogsDescriptionLabel]"/>
 						<param name="visible" value="String.IsEmpty(ListItem.AddonNews)"/>
 					</include>
 					<include content="InfoDialogsDescription">
-						<param name="left" value="0"/>
-						<param name="top" value="0"/>
+						<param name="textbox_top" value="0"/>
 						<param name="textbox_width" value="650"/>
-						<param name="textbox_height" value="105"/>
+						<param name="textbox_height" value="118"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>
 						<param name="onright" value="50"/>
+						<param name="button_top" value="-8"/>
 						<param name="button_width" value="652"/>
 						<param name="button_height" value="255"/>
 						<param name="label" value="[COLOR=white]$LOCALIZE[21821]:[/COLOR][CR]$VAR[InfoDialogsDescriptionLabel]"/>
 						<param name="visible" value="!String.IsEmpty(ListItem.AddonNews)"/>
 					</include>
 					<include content="InfoDialogsDescription">
-						<param name="left" value="0"/>
-						<param name="top" value="130"/>
+						<param name="textbox_top" value="120"/>
 						<param name="textbox_width" value="650"/>
-						<param name="textbox_height" value="105"/>
+						<param name="textbox_height" value="118"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>
 						<param name="onright" value="50"/>
+						<param name="button_top" value="-8"/>
 						<param name="button_width" value=""/>
 						<param name="button_height" value=""/>
 						<param name="label" value="[COLOR=white]$LOCALIZE[24054]:[/COLOR][CR]$INFO[ListItem.AddonNews]"/>

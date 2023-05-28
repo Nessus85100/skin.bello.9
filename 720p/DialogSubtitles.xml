@@ -462,7 +462,7 @@
 					<left>15</left>
 					<top>65</top>
 					<width>635</width>
-					<height>90</height>
+					<height>95</height>
 					<font>FontSize_22</font>
 					<textcolor>viewsinfo</textcolor>
 					<autoscroll time="3000" delay="3000" repeat="5000">true</autoscroll>

@@ -11,6 +11,32 @@
 
 	<groupoverride group="mainmenu" condition="Window.IsActive(PlayerControls.xml)">Close</groupoverride>
 
+	<override action="ActivateWindow(1140,return)">
+		<action>ActivateWindow(1140,return)</action>
+		<action>SetProperty(MediaHub,movies_hub,home)</action>
+	</override>
+
+	<override action="ActivateWindow(1150,return)">
+		<action>ActivateWindow(1150,return)</action>
+		<action>SetProperty(MediaHub,tvshows_hub,home)</action>
+	</override>
+
+	<override action="ActivateWindow(1160,return)">
+		<action>ActivateWindow(1160,return)</action>
+		<action>SetProperty(MediaHub,music_hub,home)</action>
+	</override>
+
+	<override action="ActivateWindow(1170,return)">
+		<action>ActivateWindow(1170,return)</action>
+		<action>SetProperty(MediaHub,addons_hub,home)</action>
+	</override>
+
+	<override action="ActivateWindow(1180,return)">
+		<action>ActivateWindow(1180,return)</action>
+		<action>SetProperty(MediaHub,livetv_hub,home)</action>
+	</override>
+
+
 	<groupings>
 
 		<!-- ====== -->
