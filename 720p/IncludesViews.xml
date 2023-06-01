@@ -548,15 +548,13 @@
 	<include name="ListView_Thumb">
 		<control type="group">
 			<right>45</right>
-			<top>158</top>
+			<top>163</top>
 			<width>256</width>
 			<visible>$EXP[ContainerIsUpdating]</visible>
 			<visible>Control.IsVisible(50) + !String.IsEmpty(ListItem.Label)</visible>
 			<control type="image">
-				<left>-329</left>
-				<top>0</top>
-				<width>585</width>
-				<height>256</height>
+				<width>256</width>
+				<height>400</height>
 				<aspectratio align="right" aligny="top">keep</aspectratio>
 				<texture>$INFO[Listitem.Icon]</texture>
 				<bordertexture border="31">views/other/panel.png</bordertexture>
@@ -566,7 +564,7 @@
 			<control type="image">
 				<width>256</width>
 				<height>256</height>
-				<texture background="true">views/other/panel.png</texture>
+				<texture background="true"  border="31">views/other/panel.png</texture>
 				<visible>[String.Contains(ListItem.FolderPath,/genres/) | String.Contains(ListItem.FolderPath,/studios/)]</visible>
 			</control>
 			<control type="image">

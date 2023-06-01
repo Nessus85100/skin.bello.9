@@ -513,7 +513,7 @@
 				<left>0</left>
 				<top>50</top>
 				<width>1190</width>
-				<height>520</height>
+				<height>530</height>
 				<label></label>
 				<font>FontSize_24</font>
 				<textcolor>viewsinfo</textcolor>
@@ -1397,6 +1397,7 @@
 	<!-- Trailers	Window -->
 	<!-- =============== -->
 	<include name="TrailersPanel">
+		<param name="icon_diffuse">dialogs/other/trailers_icon_diffuse.png</param>
 		<param name="bordertexture">dialogs/other/trailers_icon__panel.png</param>
 		<definition>
 		<control type="group">

@@ -129,7 +129,7 @@
 					<include content="InfoDialogsDescription">
 						<param name="textbox_top" value="3"/>
 						<param name="textbox_width" value="650"/>
-						<param name="textbox_height" value="232"/>
+						<param name="textbox_height" value="230"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="9000"/>
 						<param name="onleft" value="9002"/>

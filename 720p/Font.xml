@@ -49,39 +49,13 @@
    <name>TextboxFont_20</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>20</size>
-   <linespacing>0.89</linespacing>
+   <linespacing>0.85</linespacing>
   </font>
   <font>
    <name>TextboxFont_22</name>
    <filename>OpenSans-Regular.ttf</filename>
    <size>22</size>
-   <linespacing>0.89</linespacing>
-  </font>
-  <font>
-   <name>BackFont_22</name>
-   <filename>OpenSans-Regular.ttf</filename>
-   <size>22</size>
-  </font>
-  <font>
-   <name>BackFont_22B</name>
-   <filename>OpenSans-Regular.ttf</filename>
-   <size>22</size>
-   <style>bold</style>
-  </font>
-  <font>
-   <name>BackFont_24</name>
-   <filename>OpenSans-Regular.ttf</filename>
-   <size>24</size>
-  </font>
-  <font>
-   <name>BackFont_26</name>
-   <filename>OpenSans-Regular.ttf</filename>
-   <size>26</size>
-  </font>
-  <font>
-   <name>BackFont_34</name>
-   <filename>OpenSans-Regular.ttf</filename>
-   <size>34</size>
+   <linespacing>0.85</linespacing>
   </font>
   <font>
    <name>FontSize_12</name>

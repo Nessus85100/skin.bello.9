@@ -191,7 +191,7 @@
 				<width>1090</width>
 				<height>38</height>
 				<textcolor>disabled</textcolor>
-				<font>FontSize_20B</font>
+				<font>TextboxFont_18B</font>
 				<align>right</align>
 				<label>$INFO[System.CPUUsage,$LOCALIZE[31323]: ]</label>
 			</control>
@@ -202,7 +202,7 @@
 				<width>1090</width>
 				<height>38</height>
 				<textcolor>disabled</textcolor>
-				<font>FontSize_20B</font>
+				<font>TextboxFont_18B</font>
 				<align>right</align>
 				<label>$INFO[System.Memory(used.percent),$LOCALIZE[31027]: ]</label>
 			</control>

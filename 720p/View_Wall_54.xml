@@ -176,7 +176,7 @@
 			<!-- Info -->
 			<control type="group">
 				<left>570</left>
-				<top>188</top>
+				<top>183</top>
 				<include>InfoDialogsVisible_ZoomAnimation</include>
 				<include>TextViewerHideAnimations</include>
 				<animation effect="fade" start="100" end="0" time="300" condition="Control.IsVisible(5401) | Control.IsVisible(5402)">Conditional</animation>
@@ -208,7 +208,7 @@
 				<include content="PlotTextbox">
 					<param name="top" value="70"/>
 					<param name="width" value="400"/>
-					<param name="height" value="285"/>
+					<param name="height" value="290"/>
 					<param name="textcolor" value="white"/>
 					<param name="visible" value="!$EXP[MoviesSetsCondition]"/>
 				</include>

@@ -123,7 +123,7 @@
 				<include content="PlotTextbox">
 					<param name="top" value="286"/>
 					<param name="width" value="935"/>
-					<param name="height" value="190"/>
+					<param name="height" value="195"/>
 					<param name="visible" value="!$EXP[MoviesSetsCondition]"/>
 				</include>
 				<include content="PlotTextbox">
@@ -273,7 +273,7 @@
 				<include content="PlotTextbox">
 					<param name="top" value="295"/>
 					<param name="width" value="860"/>
-					<param name="height" value="155"/>
+					<param name="height" value="165"/>
 				</include>
 			</control>
 			<control type="image">

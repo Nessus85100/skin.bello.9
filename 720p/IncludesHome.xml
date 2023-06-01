@@ -81,8 +81,8 @@
 	<include name="ExtraInfo_Label">
 		<control type="label">
 			<width>auto</width>
-			<height>24</height>
-			<font>FontSize_16B</font>
+			<height>22</height>
+			<font>FontSize_18B</font>
 			<label>$PARAM[label]</label>
 			<textcolor>viewsinfo</textcolor>
 			<scroll>false</scroll>
@@ -90,13 +90,13 @@
 		</control>
 	</include>
 
-	<include name="ExtraInfo_Image">
+	<include name="ExtraInfo_Icon">
 		<param name="texture">icons/submenu_info.png</param>
 		<definition>
 			<control type="image">
 				<width>22</width>
 				<height>22</height>
-				<texture background="true">$PARAM[texture]</texture>
+				<texture background="true" flipy="$PARAM[flipy]">$PARAM[texture]</texture>
 				<colordiffuse>viewsinfo</colordiffuse>
 				<visible>$PARAM[visible]</visible>
 			</control>
@@ -189,21 +189,14 @@
 						<param name="align" value="left"/>
 						<param name="visible" value="Container(31).HasFocus(1) | Container(31).HasFocus(3)"/>
 					</include>
-					<control type="image">
-						<width>22</width>
-						<height>22</height>
-						<texture background="true" flipy="true">icons/submenu_arrow.png</texture>
-						<colordiffuse>viewsinfo</colordiffuse>
-						<visible>!String.IsEmpty(Container(20).ListItem.Property(widgetName))</visible>
-					</control>
-					<control type="label">
-						<width>490</width>
-						<height>23</height>
-						<font>FontSize_18B</font>
-						<label>$INFO[Container(20).ListItem.Property(widgetName),$ADDON[script.skinshortcuts 32099]: ]</label>
-						<textcolor>viewsinfo</textcolor>
-						<scroll>false</scroll>
-					</control>
+					<include content="ExtraInfo_Icon">
+						<param name="texture" value="icons/submenu_arrow.png"/>
+						<param name="flipy" value="true"/>
+						<param name="visible" value="!String.IsEmpty(Container(20).ListItem.Property(widgetName))"/>
+					</include>
+					<include content="ExtraInfo_Label">
+						<param name="label" value="$INFO[Container(20).ListItem.Property(widgetName),$ADDON[script.skinshortcuts 32099]: ]"/>
+					</include>
 				</control>
 
 				<!-- Submenus Indicators -->
@@ -215,7 +208,7 @@
 						<param name="align" value="left"/>
 						<param name="visible" value="Container(31).HasFocus(2)"/>
 					</include>
-					<include content="ExtraInfo_Image">
+					<include content="ExtraInfo_Icon">
 						<param name="texture" value="icons/submenu_arrow.png"/>
 					</include>
 					<include content="ExtraInfo_Label">
@@ -245,7 +238,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Home).Property(LatestMovie.1.Title),$LOCALIZE[31211]: ]$INFO[Window(Home).Property(LatestMovie.1.Year), (,)]"/>
 					</include>
-					<include content="ExtraInfo_Image">
+					<include content="ExtraInfo_Icon">
 						<param name="visible" value="!String.IsEmpty(Window(Home).Property(LatestMovie.1.Title))"/>
 					</include>
 				</control>
@@ -275,7 +268,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Home).Property(LatestEpisode.1.ShowTitle),$LOCALIZE[31212]: ,  ]$INFO[Window(Home).Property(LatestEpisode.1.EpisodeSeason)]$INFO[Window(Home).Property(LatestEpisode.1.EpisodeNumber),x,,]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 				<control type="grouplist">
 					<include>HomeMenu_RightExtraInfo_ScrollAnimation</include>
@@ -288,7 +281,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Home).Property(NextAired.TodayTotal), $LOCALIZE[31240]: ]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 
 				<!-- Music -->
@@ -316,7 +309,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Home).Property(LatestAlbum.1.Title),$LOCALIZE[31213]: ,]$INFO[Window(Home).Property(LatestAlbum.1.Artist), - ]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 				<control type="grouplist">
 					<include>HomeMenu_RightExtraInfo_ScrollAnimation</include>
@@ -329,7 +322,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Home).Property(LatestSong.1.Title),$LOCALIZE[31222]: ,]$INFO[Window(Home).Property(LatestSong.1.Artist), - ]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 
 				<!-- Live TV -->
@@ -357,7 +350,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$LOCALIZE[19158]$INFO[PVR.NowRecordingTitle,: ]"/>
 					</include>
-					<include content="ExtraInfo_Image">
+					<include content="ExtraInfo_Icon">
 						<param name="visible" value="!String.IsEmpty(PVR.NowRecordingTitle)"/>
 					</include>
 				</control>
@@ -372,7 +365,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$LOCALIZE[19157]$INFO[PVR.NextRecordingTitle,: ]"/>
 					</include>
-					<include content="ExtraInfo_Image">
+					<include content="ExtraInfo_Icon">
 						<param name="visible" value="!String.IsEmpty(PVR.NextRecordingTitle)"/>
 					</include>
 				</control>
@@ -389,7 +382,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(Weather).Property(Alerts),$LOCALIZE[33050]: ]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 
 				<!-- Addons -->
@@ -403,7 +396,7 @@
 					<include content="ExtraInfo_Label">
 						<param name="label" value="$INFO[Window(AddonBrowser).Property(Updated),$LOCALIZE[31229]: ]"/>
 					</include>
-					<include>ExtraInfo_Image</include>
+					<include>ExtraInfo_Icon</include>
 				</control>
 			</control>
 

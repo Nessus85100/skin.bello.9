@@ -481,7 +481,8 @@
 
 	<!-- Widgets Labels  -->
 	<include name="HomeWidgetsTitleLabel">
-		<param name="height">30</param>
+		<param name="top">375</param>
+		<param name="height">25</param>
 		<param name="width">950</param>
 		<param name="font">FontSize_42</param>
 		<param name="label">$VAR[HomeWidgetsTitleLabels]</param>
@@ -555,7 +556,6 @@
 	<include name="HomeWidgets_Labels">
 		<control type="group">
 			<left>45</left>
-			<top>374</top>
 			<include>HomeMenu_OpenCloseSlideAnimation</include>
 			<visible>ControlGroup(22).HasFocus</visible>
 			<visible>![String.StartsWith(Container(20).ListItem.Property(widgetRatio),Fanart/Logo) + !String.IsEmpty(ListItem.Art(clearlogo))]</visible>
@@ -583,12 +583,14 @@
 				<param name="visible" value="String.IsEqual(Container(20).ListItem.Property(widgetRatio),Fanart/Landscape)"/>
 			</include>
 			<include content="HomeWidgetsTitleLabel">
+				<param name="top" value="380"/>
 				<param name="width" value="1190"/>
 				<param name="visible" value="![String.IsEqual(Container(20).ListItem.Property(widgetRatio),Fanart/Landscape) | String.IsEqual(Container(20).ListItem.Property(widgetRatio),Fanart/Poster) | String.IsEqual(Container(20).ListItem.Property(widgetRatio),Fanart/Square)]"/>
 			</include>
 			<control type="group">
+				<top>376</top>
 				<animation effect="slide" start="0,0" end="-180,130" condition="String.StartsWith(Container(20).ListItem.Property(widgetRatio),Fanart/Logo)">Conditional</animation>
-				<animation effect="slide" start="0,0" end="180,-38" condition="String.StartsWith(Container(20).ListItem.Property(widgetRatio),Fanart)">Conditional</animation>
+				<animation effect="slide" start="0,0" end="180,-43" condition="String.StartsWith(Container(20).ListItem.Property(widgetRatio),Fanart)">Conditional</animation>
 				<animation effect="slide" start="0,0" end="120,0" condition="String.StartsWith(Container(20).ListItem.Property(widgetRatio),Fanart/Landscape)">Conditional</animation>
 					<!-- Label-2 -->
 				<control type="grouplist">
@@ -614,7 +616,7 @@
 					</include>
 					<include content="HomeWidgetsSubLabel">
 						<param name="label" value="$INFO[Window(Home).Property(TMDbHelper.ListItem.revenue),• ]"/>
-						<param name="visible" value="[String.IsEqual(Container(20).ListItem.Property(widget),HighestRevenueMovies) | String.IsEqual(Container(20).ListItem.Property(widget),InCinemasMovies)] + ![String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.revenue)) | String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.revenue),$0)]"/>
+						<param name="visible" value="![String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.revenue)) | String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.revenue),$0)]"/>
 					</include>
 				</control>
 	
@@ -641,21 +643,21 @@
 					</include>
 					<include content="HomeWidgetsSubIcon">
 						<param name="width" value="24"/>
+						<param name="icon" value="icons/time.png"/>
+						<param name="visible" value="!String.IsEmpty(ListItem.Duration)"/>
+					</include>
+					<include content="HomeWidgetsSubLabel">
+						<param name="label" value="$VAR[ListItemDurationVar]  "/>
+						<param name="visible" value="!String.IsEmpty(ListItem.Duration)"/>
+					</include>
+					<include content="HomeWidgetsSubIcon">
+						<param name="width" value="24"/>
 						<param name="icon" value="icons/dollar.png"/>
 						<param name="visible" value="String.IsEmpty(ListItem.DBID) + ![String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.revenue)) | String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.revenue),$0)]"/>
 					</include>
 					<include content="HomeWidgetsSubLabel">
 						<param name="label" value="$INFO[Window(Home).Property(TMDbHelper.ListItem.revenue)]"/>
 						<param name="visible" value="String.IsEmpty(ListItem.DBID) + ![String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.revenue)) | String.IsEqual(Window(Home).Property(TMDbHelper.ListItem.revenue),$0)]"/>
-					</include>
-					<include content="HomeWidgetsSubIcon">
-						<param name="width" value="24"/>
-						<param name="icon" value="icons/time.png"/>
-						<param name="visible" value="!String.IsEmpty(ListItem.DBID) + !String.IsEmpty(ListItem.Duration)"/>
-					</include>
-					<include content="HomeWidgetsSubLabel">
-						<param name="label" value="$VAR[ListItemDurationVar]"/>
-						<param name="visible" value="!String.IsEmpty(ListItem.DBID) + !String.IsEmpty(ListItem.Duration)"/>
 					</include>
 				</control>
 	

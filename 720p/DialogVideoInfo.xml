@@ -800,7 +800,7 @@
 					</control>
 				</control>
 			</control>
-			<!--
+			<!-- DISABLED
 			<control type="group">
 				<left>265</left>
 				<top>160</top>
@@ -1117,13 +1117,14 @@
 					<top>292</top>
 					<width>630</width>
 					<include content="InfoDialogsDescription">
-						<param name="top" value="0"/>
+						<param name="textbox_top" value="0"/>
 						<param name="textbox_width" value="630"/>
-						<param name="textbox_height" value="260"/>
+						<param name="textbox_height" value="255"/>
 						<param name="font" value="TextboxFont_22"/>
 						<param name="onup" value="8000"/>
 						<param name="onleft" value="8002"/>
 						<param name="onright" value="51"/>
+						<param name="button_top" value="-10"/>
 						<param name="button_width" value="632"/>
 						<param name="button_height" value="280"/>
 						<param name="label" value="[COLOR=white]$LOCALIZE[21887]:[/COLOR][CR]$VAR[ActorInfoBiographyLabel]"/>
@@ -1136,14 +1137,6 @@
 					</include>
 				</control>
 			</control>
-
-			<!-- I am busy
-			<include content="IamBusyAnimation">
-				<param name="left" value="-160"/>
-				<param name="font" value="FontSize_22"/>
-				<param name="visible_1" value="String.IsEmpty(Window.Property(videoinfo)) + [String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.NumItems.TMDb.Movies.Total)) + String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.NumItems.TMDb.TVShows.Total))]"/>
-			</include>
-			 -->
 
 			<!-- Photos -->
 			<control type="group">
@@ -1158,7 +1151,7 @@
 					<left>0</left>
 					<top>30</top>
 					<width>230</width>
-					<height>305</height>
+					<height>306</height>
 					<onup>8000</onup>
 					<ondown>51</ondown>
 					<onleft>8003</onleft>

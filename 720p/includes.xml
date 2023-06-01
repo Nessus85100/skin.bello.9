@@ -375,7 +375,7 @@
 			<width>1090</width>
 			<height>35</height>
 			<textcolor>disabled</textcolor>
-			<font>TextboxFont_20B</font>
+			<font>TextboxFont_18B</font>
 			<wrapmultiline>true</wrapmultiline>
 			<label>$PARAM[description_label]</label>
 		</control>
@@ -988,14 +988,12 @@
 					<width>auto</width>
 					<label>$PARAM[label]</label>
 					<font>$PARAM[font]</font>
-					<textcolor>$VAR[Textures.GlobalColor]</textcolor>
 				</control>
 				<control type="label">
 					<height>100%</height>
 					<width>100%</width>
 					<label>$INFO[Control.GetLabel(555)]</label>
 					<font>$PARAM[font]</font>
-					<textcolor>$VAR[Textures.GlobalColor]</textcolor>
 				</control>
 			</control>
 			<control type="fadelabel" id="555">
@@ -1559,6 +1557,5 @@
 	Custom_HubMusic.xml							id=1160
 	Custom_HubAddons.xml						id=1170
 	Custom_HubLiveTV.xml						id=1180
-	Custom_HubsSettings.xml					id=1190
 	-->
 </includes>
