@@ -5,45 +5,46 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KODI Skins\n"
-"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-03-30 23:53+0000\n"
-"Last-Translator: Nessus85100 <nessus85100@hotmail.com>, 2019\n"
-"Language-Team: English (Australia) (https://www.transifex.com/bello-ui/teams/96761/en_AU/)\n"
-"Language: en_AU\n"
+"PO-Revision-Date: 2023-06-21 11:42+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"Language-Team: English (Australia) <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/en_au/>\n"
+"Language: en_au\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18\n"
 
 #: Misc labels
 msgctxt "#31000"
 msgid "Live TV"
-msgstr ""
+msgstr "Live TV"
 
 msgctxt "#31001"
 msgid "TV Guide"
-msgstr ""
+msgstr "TV Guide"
 
 msgctxt "#31002"
 msgid "TV Shows"
-msgstr ""
+msgstr "TV Shows"
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr ""
+msgstr "Aired"
 
 msgctxt "#31004"
 msgid "Premiere"
-msgstr ""
+msgstr "Premiere"
 
 msgctxt "#31005"
 msgid "Track Number"
-msgstr ""
+msgstr "Track Number"
 
 msgctxt "#31006"
 msgid "Working"
-msgstr ""
+msgstr "Working"
 
 msgctxt "#31007"
 msgid "Please Wait"
@@ -55,7 +56,7 @@ msgstr ""
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr ""
+msgstr "Context Menu"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
@@ -71,7 +72,7 @@ msgstr ""
 
 msgctxt "#31013"
 msgid "Home Menu"
-msgstr ""
+msgstr "Home Menu"
 
 msgctxt "#31014"
 msgid "Created by"
@@ -79,7 +80,7 @@ msgstr ""
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "Similar to"
 
 msgctxt "#31016"
 msgid "File Manager"
@@ -87,19 +88,19 @@ msgstr ""
 
 msgctxt "#31017"
 msgid "Not Installed or Disabled"
-msgstr ""
+msgstr "Not Installed or Disabled"
 
 msgctxt "#31018"
 msgid "Trailers"
-msgstr ""
+msgstr "Trailers"
 
 msgctxt "#31019"
 msgid "Directed by"
-msgstr ""
+msgstr "Directed by"
 
 msgctxt "#31020"
 msgid "Written by"
-msgstr ""
+msgstr "Written by"
 
 msgctxt "#31021"
 msgid "Music Library"
@@ -119,7 +120,7 @@ msgstr ""
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 msgctxt "#31026"
 msgid "Scrolling..."
@@ -127,11 +128,11 @@ msgstr ""
 
 msgctxt "#31027"
 msgid "Memory Usage"
-msgstr ""
+msgstr "Memory Usage"
 
 msgctxt "#31028"
 msgid "Items"
-msgstr ""
+msgstr "Items"
 
 msgctxt "#31029"
 msgid "for"
@@ -151,21 +152,20 @@ msgstr ""
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr ""
+msgstr "Channel Group"
 
 msgctxt "#31034"
 msgid "Teletext"
-msgstr ""
+msgstr "Teletext"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
 msgstr ""
 
 #: empty strings from id 31036 to 31040
-
 msgctxt "#31041"
 msgid "Creator"
-msgstr ""
+msgstr "Creator"
 
 msgctxt "#31042"
 msgid "Welcome to Bello!"
@@ -183,7 +183,6 @@ msgctxt "#31045"
 msgid "Exiting"
 msgstr ""
 
-
 msgctxt "#31046"
 msgid "Power off system"
 msgstr ""
@@ -200,17 +199,15 @@ msgctxt "#31049"
 msgid "Reboot system"
 msgstr ""
 
-
 #: empty strings from id 31050 to 31079
-
 #: ViewTypes Labels
 msgctxt "#31080"
 msgid "Slide"
-msgstr ""
+msgstr "Slide"
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "Gallery"
 
 msgctxt "#31082"
 msgid "3D Wall"
@@ -366,7 +363,6 @@ msgid "seconds"
 msgstr ""
 
 #: empty strings from id 31120 to 31123
-
 msgctxt "#31124"
 msgid "Flashing Lights"
 msgstr ""
@@ -424,13 +420,11 @@ msgid "Enable Notifications"
 msgstr ""
 
 #: empty string id 31138
-
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
 msgstr ""
 
 #: empty string id 31140
-
 msgctxt "#31141"
 msgid "Lyrics Add-on"
 msgstr ""
@@ -444,7 +438,6 @@ msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=disabled](Requires s
 msgstr ""
 
 #: empty strings from id 31144 to 31150
-
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
 msgstr ""
@@ -522,7 +515,6 @@ msgid "Reset Skin"
 msgstr ""
 
 #: empty strings from id 31170 to 31199
-
 #: Scripts Labels
 msgctxt "#31200"
 msgid "My Smartish Movies"
@@ -629,7 +621,6 @@ msgid "Building Home Menu"
 msgstr ""
 
 #: empty string id 31226
-
 msgctxt "#31227"
 msgid "Weather Daily Forecast"
 msgstr ""
@@ -659,7 +650,6 @@ msgid "Location"
 msgstr ""
 
 #: empty strings from id 31234 to 31236
-
 msgctxt "#31237"
 msgid "Popular People"
 msgstr ""
@@ -888,9 +878,7 @@ msgctxt "#31293"
 msgid "Categories"
 msgstr ""
 
-
 #: empty strings from id 31294 to 31299
-
 #: Video and Music OSD Labels
 msgctxt "#31300"
 msgid "Muted"
@@ -917,7 +905,6 @@ msgid "Finish Time:"
 msgstr ""
 
 #: empty string id 31306
-
 msgctxt "#31307"
 msgid "Artist Fanart"
 msgstr ""
@@ -995,7 +982,6 @@ msgid "Lyrics Settings"
 msgstr ""
 
 #: empty strings from id 31326 to 31349
-
 #: PVR Labels
 msgctxt "#31350"
 msgid "Available Groups"
@@ -1034,7 +1020,6 @@ msgid "Small List"
 msgstr ""
 
 #: empty strings from id 31359 to 31373
-
 #: Quick Navigation Labels
 msgctxt "#31374"
 msgid "Quick Navigation"
@@ -1061,7 +1046,6 @@ msgid "Custom Items"
 msgstr ""
 
 #: empty string id 31380
-
 msgctxt "#31381"
 msgid "Search Video Library"
 msgstr ""
@@ -1087,7 +1071,6 @@ msgid "People"
 msgstr ""
 
 #: empty strings from id 31387 to 31408
-
 #: Settings Category Description & Header Labels
 msgctxt "#31409"
 msgid "Choose from a variety of settings and customization options to make \"Bello\" fit your needs and taste."
@@ -1098,7 +1081,6 @@ msgid "With Kodi you can have several profiles and the auto login option if the 
 msgstr ""
 
 #: empty strings from id 31411 to 31430
-
 #: Help Messages
 msgctxt "#31431"
 msgid "You haven't added any items to Favorites yet.[CR]Highlight an item, and choose \"Add to favorites\" from the context menu."
