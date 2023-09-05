@@ -6,31 +6,31 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2022-11-02 12:15+0000\n"
-"Last-Translator: Christian Gade <gade@kodi.tv>\n"
+"PO-Revision-Date: 2023-09-05 07:11+0000\n"
+"Last-Translator: Nao3Line Prez <n.yazawa6932@gmail.com>\n"
 "Language-Team: Indonesian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/id_id/>\n"
 "Language: id_id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.18.2\n"
 
 msgctxt "Addon Summary"
 msgid "A GUI for Kodi Media Center"
-msgstr ""
+msgstr "GUI untuk Sentra Media Kodi"
 
 msgctxt "Addon Description"
 msgid "This is the 8th generation of Bello skin for Kodi. Bello 8 is aiming to maximize your Kodi entertainment experience with its NEW Unique, Clean and Elegant interface while providing users a highly customization level and lots of cool features!"
-msgstr ""
+msgstr "Ini adalah skin Bello generasi ke-8 untuk Kodi. Bello 8 bertujuan untuk memaksimalkan pengalaman hiburan Kodi Anda dengan antarmuka BARU yang Unik, Bersih, dan Elegan sambil memberikan tingkat penyesuaian yang tinggi kepada pengguna dan banyak fitur keren!"
 
 msgctxt "Addon Disclaimer"
 msgid "Mouse, Games and touchscreen use are not supported. With the installation of this skin you agree that you don't use it in any way for comercial purposes without my prior consentse. I'm not associated with any available Kodi build and i won't give any support to blacklisted, banned or illegal third party addons."
-msgstr ""
+msgstr "Penggunaan Mouse, Game, dan layar sentuh tidak didukung. Dengan pemasangan skin ini Anda setuju bahwa Anda tidak menggunakannya dengan cara apa pun untuk tujuan komersial tanpa persetujuan saya sebelumnya. Saya tidak terkait dengan build Kodi apa pun yang tersedia dan saya tidak akan memberikan dukungan apa pun kepada add-on pihak ketiga yang masuk daftar hitam, dilarang, atau ilegal."
 
 msgctxt "#31000"
 msgid "Live TV"
-msgstr "Siaran TV Langsung"
+msgstr "Siaran TV"
 
 msgctxt "#31001"
 msgid "TV Guide"
@@ -42,11 +42,11 @@ msgstr "Acara TV"
 
 msgctxt "#31003"
 msgid "Aired"
-msgstr "Disiarkan"
+msgstr "Tayang"
 
 msgctxt "#31004"
 msgid "Premiere"
-msgstr ""
+msgstr "Perdana"
 
 msgctxt "#31005"
 msgid "Track Number"
@@ -54,31 +54,31 @@ msgstr "Nomor Trek"
 
 msgctxt "#31006"
 msgid "Working..."
-msgstr "Mengerjakan..."
+msgstr "Berjalan..."
 
 msgctxt "#31007"
 msgid "Please Wait..."
-msgstr ""
+msgstr "Mohon tunggu..."
 
 msgctxt "#31008"
 msgid "System auto shutdown in"
-msgstr ""
+msgstr "Sistem mati otomatis dalam"
 
 msgctxt "#31009"
 msgid "Context Menu"
-msgstr "Pilihan Konteks"
+msgstr "Menu Konteks"
 
 msgctxt "#31010"
 msgid "Customize Home Menu"
-msgstr ""
+msgstr "Sesuaikan Menu Beranda"
 
 msgctxt "#31011"
 msgid "Recommended by TMDB"
-msgstr ""
+msgstr "Direkomendasikan oleh TMDB"
 
 msgctxt "#31012"
 msgid "More"
-msgstr ""
+msgstr "Lebih"
 
 msgctxt "#31013"
 msgid "Home Menu"
@@ -86,19 +86,19 @@ msgstr "Menu Beranda"
 
 msgctxt "#31014"
 msgid "Created by"
-msgstr ""
+msgstr "Dibuat oleh"
 
 msgctxt "#31015"
 msgid "Similar to"
-msgstr ""
+msgstr "Serupa dengan"
 
 msgctxt "#31016"
 msgid "File Manager"
-msgstr ""
+msgstr "Pengelola Berkas"
 
 msgctxt "#31017"
 msgid "Not Installed or Disabled"
-msgstr ""
+msgstr "Tidak Diinstal atau Dinonaktifkan"
 
 msgctxt "#31018"
 msgid "Trailers"
@@ -114,31 +114,31 @@ msgstr "Ditulis oleh"
 
 msgctxt "#31021"
 msgid "Music Library"
-msgstr ""
+msgstr "Pustaka Musik"
 
 msgctxt "#31022"
 msgid "Music Files"
-msgstr ""
+msgstr "Berkas Musik"
 
 msgctxt "#31023"
 msgid "Loading Info..."
-msgstr ""
+msgstr "Memuat Info..."
 
 msgctxt "#31024"
 msgid "of"
-msgstr ""
+msgstr "dari"
 
 msgctxt "#31025"
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 msgctxt "#31026"
 msgid "Scrolling..."
-msgstr ""
+msgstr "Menggulir..."
 
 msgctxt "#31027"
 msgid "Memory Usage"
-msgstr ""
+msgstr "Penggunaan Memori"
 
 msgctxt "#31028"
 msgid "Items"
@@ -146,19 +146,19 @@ msgstr "Item"
 
 msgctxt "#31030"
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 msgctxt "#31031"
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 msgctxt "#31032"
 msgid "User Login"
-msgstr ""
+msgstr "Login Pengguna"
 
 msgctxt "#31033"
 msgid "Channel Group"
-msgstr "Grup Kanal"
+msgstr "Grup Saluran"
 
 msgctxt "#31034"
 msgid "Teletext"
@@ -166,15 +166,15 @@ msgstr "Teleteks"
 
 msgctxt "#31035"
 msgid "Searching subtitles"
-msgstr ""
+msgstr "Mencari takarir"
 
 msgctxt "#31037"
 msgid "Change Rating"
-msgstr ""
+msgstr "Ganti Rating"
 
 msgctxt "#31038"
 msgid "Esc"
-msgstr ""
+msgstr "Esc"
 
 msgctxt "#31041"
 msgid "Creator"
@@ -182,55 +182,55 @@ msgstr "Kreator"
 
 msgctxt "#31042"
 msgid "Welcome to Bello!"
-msgstr ""
+msgstr "Selamat datang di Bello!"
 
 msgctxt "#31043"
 msgid "Thank you for using Bello!"
-msgstr ""
+msgstr "Terima kasih telah menggunakan Bello!"
 
 msgctxt "#31044"
 msgid "Starting"
-msgstr ""
+msgstr "Memulai"
 
 msgctxt "#31045"
 msgid "Exiting"
-msgstr ""
+msgstr "Keluar"
 
 msgctxt "#31046"
 msgid "Powering off"
-msgstr ""
+msgstr "Matikan"
 
 msgctxt "#31047"
 msgid "Suspending"
-msgstr ""
+msgstr "Menangguhkan"
 
 msgctxt "#31048"
 msgid "Hibernating"
-msgstr ""
+msgstr "Hibernasi"
 
 msgctxt "#31049"
 msgid "Rebooting"
-msgstr ""
+msgstr "Mulai ulang"
 
 msgctxt "#31050"
 msgid "Logging off"
-msgstr ""
+msgstr "Keluar"
 
 msgctxt "#31080"
 msgid "Slide"
-msgstr ""
+msgstr "Geser"
 
 msgctxt "#31081"
 msgid "Gallery"
-msgstr ""
+msgstr "Galeri"
 
 msgctxt "#31082"
 msgid "3D Wall"
-msgstr ""
+msgstr "Dinding 3D"
 
 msgctxt "#31083"
 msgid "Wall"
-msgstr "Ikon"
+msgstr "Dinding"
 
 msgctxt "#31084"
 msgid "Posters"
@@ -238,95 +238,95 @@ msgstr "Poster"
 
 msgctxt "#31085"
 msgid "Thumbnails"
-msgstr ""
+msgstr "Thumbnail"
 
 msgctxt "#31086"
 msgid "Banner List"
-msgstr ""
+msgstr "Daftar Spanduk"
 
 msgctxt "#31087"
 msgid "VideoWall"
-msgstr ""
+msgstr "Dinding Video"
 
 msgctxt "#31088"
 msgid "List Wall"
-msgstr ""
+msgstr "Dinding Daftar"
 
 msgctxt "#31089"
 msgid "Showtime"
-msgstr ""
+msgstr "Pertunjukan"
 
 msgctxt "#31090"
 msgid "Tiles"
-msgstr ""
+msgstr "Ubin"
 
 msgctxt "#31091"
 msgid "Supported Add-ons"
-msgstr ""
+msgstr "Pengaya yang Didukung"
 
 msgctxt "#31093"
 msgid "Quick Navigation Widgets"
-msgstr ""
+msgstr "Widget Navigasi Cepat"
 
 msgctxt "#31094"
 msgid "Movies Widgets"
-msgstr ""
+msgstr "Widget Film"
 
 msgctxt "#31095"
 msgid "TV Shows Widgets"
-msgstr ""
+msgstr "Widget Acara TV"
 
 msgctxt "#31096"
 msgid "Music Widgets"
-msgstr ""
+msgstr "Widget Musik"
 
 msgctxt "#31097"
 msgid "RSS Video Feed Widget"
-msgstr ""
+msgstr "Widget Umpan Video RSS"
 
 msgctxt "#31098"
 msgid "Show Small Thumbs"
-msgstr ""
+msgstr "Tunjukkan Gambar Kecil"
 
 msgctxt "#31099"
 msgid "Show Big Thumbs"
-msgstr ""
+msgstr "Tunjukkan Gambar Besar"
 
 msgctxt "#31100"
 msgid "Thumb Glow"
-msgstr ""
+msgstr "Gambar bercahaya"
 
 msgctxt "#31101"
 msgid "Enable Autocompletion on K/B [COLOR=55white](Requires plugin.program.autocompletion)[/COLOR]"
-msgstr ""
+msgstr "Aktifkan Pelengkapan Otomatis pada K/B [COLOR=55white](Membutuhkan plugin.program.autocompletion)[/COLOR]"
 
 msgctxt "#31102"
 msgid "Hide Now Playing Video Info"
-msgstr ""
+msgstr "Sembunyikan Info Video Sedang Diputar"
 
 msgctxt "#31103"
 msgid "Hide Now Playing Music Info"
-msgstr ""
+msgstr "Sembunyikan Info Musik Sedang Diputar"
 
 msgctxt "#31104"
 msgid "OSD Music Layout"
-msgstr ""
+msgstr "Tata Letak Musik OSD"
 
 msgctxt "#31105"
 msgid "OSD Video Layout"
-msgstr ""
+msgstr "Tata Letak Video OSD"
 
 msgctxt "#31106"
 msgid "SeekBar Layout"
-msgstr ""
+msgstr "Tata Letak SeekBar"
 
 msgctxt "#31107"
 msgid "Simple"
-msgstr ""
+msgstr "Sederhana"
 
 msgctxt "#31108"
 msgid "System Music Files"
-msgstr ""
+msgstr "Berkas Musik Sistem"
 
 msgctxt "#31109"
 msgid "Current Playlist"
@@ -334,79 +334,79 @@ msgstr "Daftar Putar saat ini"
 
 msgctxt "#31110"
 msgid "OSD layout has changed."
-msgstr ""
+msgstr "Tata letak OSD telah berubah."
 
 msgctxt "#31111"
 msgid "Budget"
-msgstr ""
+msgstr "Anggaran"
 
 msgctxt "#31112"
 msgid "Revenue"
-msgstr ""
+msgstr "Pendapatan"
 
 msgctxt "#31113"
 msgid "Awards"
-msgstr ""
+msgstr "Penghargaan"
 
 msgctxt "#31114"
 msgid "Crew"
-msgstr ""
+msgstr "Kru"
 
 msgctxt "#31115"
 msgid "Options Menu"
-msgstr ""
+msgstr "Menu Opsi"
 
 msgctxt "#31116"
 msgid "Views Menu"
-msgstr ""
+msgstr "Menu Lihat"
 
 msgctxt "#31124"
 msgid "Flashing Lights"
-msgstr ""
+msgstr "Lampu Berkedip"
 
 msgctxt "#31125"
 msgid "Edit Info"
-msgstr ""
+msgstr "Sunting Info"
 
 msgctxt "#31126"
 msgid "Textures Colours"
-msgstr ""
+msgstr "Warna Tekstur"
 
 msgctxt "#31127"
 msgid "Text Colours"
-msgstr ""
+msgstr "Warna Teks"
 
 msgctxt "#31128"
 msgid "Background Colours"
-msgstr ""
+msgstr "Warna Latar Belakang"
 
 msgctxt "#31129"
 msgid "Reset all colours to default"
-msgstr ""
+msgstr "Atur ulang semua warna ke bawaan"
 
 msgctxt "#31130"
 msgid "Disable Fanart in all sections"
-msgstr ""
+msgstr "Nonaktifkan Fanart di semua bagian"
 
 msgctxt "#31131"
 msgid "Show Only on Home Screen"
-msgstr ""
+msgstr "Tampilkan Hanya di Layar Utama"
 
 msgctxt "#31132"
 msgid "Hide Background Video"
-msgstr ""
+msgstr "Sembunyikan Video Latar Belakang"
 
 msgctxt "#31137"
 msgid "Enable Notifications"
-msgstr ""
+msgstr "Aktifkan Notifikasi"
 
 msgctxt "#31139"
 msgid "Enable Add-ons Notifications"
-msgstr ""
+msgstr "Aktifkan Pemberitahuan Pengaya"
 
 msgctxt "#31140"
 msgid "Enable Weather Alerts Notifications"
-msgstr ""
+msgstr "Aktifkan Pemberitahuan Peringatan Cuaca"
 
 msgctxt "#31141"
 msgid "Lyrics Add-on"
@@ -414,7 +414,7 @@ msgstr "Pengaya Lirik"
 
 msgctxt "#31142"
 msgid "Required Add-on"
-msgstr ""
+msgstr "Membutuhkan Pengaya"
 
 msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
