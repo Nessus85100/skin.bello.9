@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-09-05 07:11+0000\n"
+"PO-Revision-Date: 2023-10-05 00:11+0000\n"
 "Last-Translator: Nao3Line Prez <n.yazawa6932@gmail.com>\n"
 "Language-Team: Indonesian <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/id_id/>\n"
 "Language: id_id\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.0.2\n"
 
 msgctxt "Addon Summary"
 msgid "A GUI for Kodi Media Center"
@@ -418,43 +418,43 @@ msgstr "Membutuhkan Pengaya"
 
 msgctxt "#31143"
 msgid "Enable NextAired Info & TV Guide for TV Shows [COLOR=55white](Requires script.tv.show.next.aired)[/COLOR]"
-msgstr ""
+msgstr "Aktifkan Info NextAired & Panduan TV untuk Acara TV [COLOR=55white](Memerlukan script.tv.show.next.aired)[/COLOR]"
 
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
-msgstr ""
+msgstr "Tampilkan umpan RSS di seluruh skin"
 
 msgctxt "#31153"
 msgid "Enable login screen"
-msgstr ""
+msgstr "Aktikan layar masuk"
 
 msgctxt "#31156"
 msgid "Manage Video Views"
-msgstr ""
+msgstr "Atur Tampilan Video"
 
 msgctxt "#31157"
 msgid "Manage Music Views"
-msgstr ""
+msgstr "Atur Tampilan Musik"
 
 msgctxt "#31158"
 msgid "Views"
-msgstr ""
+msgstr "Tampilan"
 
 msgctxt "#31161"
 msgid "Hide home menu extra info"
-msgstr ""
+msgstr "Sembunyikan info tambahan menu beranda"
 
 msgctxt "#31162"
 msgid "Enable Kiosk Mode"
-msgstr ""
+msgstr "Aktifkan Mode Kiosk"
 
 msgctxt "#31163"
 msgid "Cast info"
-msgstr ""
+msgstr "Info pemeran"
 
 msgctxt "#31164"
 msgid "Press DOWN for more info"
-msgstr ""
+msgstr "Tekan BAWAH untuk info lebih lanjut"
 
 msgctxt "#31165"
 msgid "Ends"
@@ -466,11 +466,11 @@ msgstr "Subtitle lokal tersedia"
 
 msgctxt "#31167"
 msgid "Settings Level:"
-msgstr ""
+msgstr "Tingkat Pengaturan:"
 
 msgctxt "#31168"
 msgid "Reset Level"
-msgstr ""
+msgstr "Ulang Tingkatan"
 
 msgctxt "#31169"
 msgid "Reset Skin"
@@ -478,43 +478,43 @@ msgstr "Atur Ulang Skin"
 
 msgctxt "#31200"
 msgid "My Smartish Movies"
-msgstr ""
+msgstr "Film Cerdas Saya"
 
 msgctxt "#31201"
 msgid "My Smartish TV Shows"
-msgstr ""
+msgstr "Acara TV Cerdas Saya"
 
 msgctxt "#31202"
 msgid "My Smartish Music"
-msgstr ""
+msgstr "Musik Cerdas Saya"
 
 msgctxt "#31203"
 msgid "HD Movies"
-msgstr ""
+msgstr "Film HD"
 
 msgctxt "#31204"
 msgid "Top 250 Movies"
-msgstr ""
+msgstr "250 Film Teratas"
 
 msgctxt "#31205"
 msgid "My Smartish TV Channels"
-msgstr ""
+msgstr "Saluran TV Cerdas Saya"
 
 msgctxt "#31206"
 msgid "Next Aired TV Shows"
-msgstr ""
+msgstr "Acara TV yang Ditayangkan Berikutnya"
 
 msgctxt "#31207"
 msgid "Widget's Aspect Ratio"
-msgstr ""
+msgstr "Rasio Aspek Widget"
 
 msgctxt "#31208"
 msgid "Auto-Hide all Widgets"
-msgstr ""
+msgstr "Sembunyikan Otomatis semua Widget"
 
 msgctxt "#31209"
 msgid "Use submenu as Widget"
-msgstr ""
+msgstr "Gunakan submenu sebagai Widget"
 
 msgctxt "#31210"
 msgid "Recent"
@@ -522,31 +522,31 @@ msgstr "Baru"
 
 msgctxt "#31211"
 msgid "Latest Movie"
-msgstr ""
+msgstr "Film Terakhir"
 
 msgctxt "#31212"
 msgid "Latest Episode"
-msgstr ""
+msgstr "Episode Terakhir"
 
 msgctxt "#31213"
 msgid "Latest Album"
-msgstr ""
+msgstr "Album Terakhir"
 
 msgctxt "#31214"
 msgid "Airing"
-msgstr ""
+msgstr "Mengudara"
 
 msgctxt "#31215"
 msgid "Next Airs"
-msgstr ""
+msgstr "Tayang Selanjutnya"
 
 msgctxt "#31216"
 msgid "Last Aired"
-msgstr ""
+msgstr "Tayang Terakhir"
 
 msgctxt "#31217"
 msgid "Wide Thumb"
-msgstr ""
+msgstr "Thumb Lebar"
 
 msgctxt "#31218"
 msgid "Landscape"
@@ -554,19 +554,19 @@ msgstr "Lanskap"
 
 msgctxt "#31219"
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 msgctxt "#31220"
 msgid "Extra Info"
-msgstr ""
+msgstr "Info Ekstra"
 
 msgctxt "#31221"
 msgid "Extra art"
-msgstr ""
+msgstr "Seni ekstra"
 
 msgctxt "#31222"
 msgid "Latest Song"
-msgstr ""
+msgstr "Lagu Terakhir"
 
 msgctxt "#31223"
 msgid "Square"
@@ -574,7 +574,7 @@ msgstr "Kotak"
 
 msgctxt "#31228"
 msgid "at"
-msgstr ""
+msgstr "di"
 
 msgctxt "#31229"
 msgid "Last Updated"
@@ -582,11 +582,11 @@ msgstr "Terakhir diperbarui"
 
 msgctxt "#31230"
 msgid "Data Provider"
-msgstr ""
+msgstr "Penyedia Data"
 
 msgctxt "#31231"
 msgid "Daily"
-msgstr ""
+msgstr "Harian"
 
 msgctxt "#31233"
 msgid "Location"
@@ -594,19 +594,19 @@ msgstr "Lokasi"
 
 msgctxt "#31237"
 msgid "Popular People"
-msgstr ""
+msgstr "Orang Populer"
 
 msgctxt "#31238"
 msgid "No Shows airing today.[CR]Press LEFT to select different day."
-msgstr ""
+msgstr "Tidak Ada Acara yang ditayangkan hari ini.[CR]Tekan KIRI untuk memilih hari yang berbeda."
 
 msgctxt "#31239"
 msgid "Shows Listed"
-msgstr ""
+msgstr "Acara Terdaftar"
 
 msgctxt "#31240"
 msgid "Shows Airing Today"
-msgstr ""
+msgstr "Acara Tayang Hari Ini"
 
 msgctxt "#31241"
 msgid "Recently Added Movies"
@@ -614,11 +614,11 @@ msgstr "Film yang Baru Ditambahkan"
 
 msgctxt "#31242"
 msgid "Recently Added TV Shows"
-msgstr ""
+msgstr "Acara TV yang Baru Ditambahkan"
 
 msgctxt "#31243"
 msgid "Recently Added Music"
-msgstr ""
+msgstr "Musik yang Baru Ditambahkan"
 
 msgctxt "#31244"
 msgid "Kids Movies"
@@ -630,7 +630,7 @@ msgstr "Acara TV Anak-anak"
 
 msgctxt "#31246"
 msgid "TV Shows Airing Today"
-msgstr ""
+msgstr "Acara TV yang Ditayangkan Hari Ini"
 
 msgctxt "#31247"
 msgid "Random Movies"
@@ -638,7 +638,7 @@ msgstr "Film Acak"
 
 msgctxt "#31248"
 msgid "Random TV Shows"
-msgstr ""
+msgstr "Acara TV Acak"
 
 msgctxt "#31249"
 msgid "Random Albums"
@@ -646,59 +646,59 @@ msgstr "Album Acak"
 
 msgctxt "#31250"
 msgid "Coming Soon"
-msgstr ""
+msgstr "Segera"
 
 msgctxt "#31251"
 msgid "Popular Movies"
-msgstr ""
+msgstr "Film Populer"
 
 msgctxt "#31252"
 msgid "Popular TV Shows"
-msgstr ""
+msgstr "Acara TV Populer"
 
 msgctxt "#31253"
 msgid "Oscars Winners"
-msgstr ""
+msgstr "Pemenang Oscar"
 
 msgctxt "#31254"
 msgid "Search on YouTube"
-msgstr ""
+msgstr "Cari di Youtube"
 
 msgctxt "#31255"
 msgid "RSS Video Feeds"
-msgstr ""
+msgstr "Umpan Video RSS"
 
 msgctxt "#31256"
 msgid "In Cinemas Now"
-msgstr ""
+msgstr "Tayang di Bioskop"
 
 msgctxt "#31257"
 msgid "Trending Movies"
-msgstr ""
+msgstr "Film Ngetren"
 
 msgctxt "#31258"
 msgid "Trending TV Shows"
-msgstr ""
+msgstr "Acara TV Ngetren"
 
 msgctxt "#31259"
 msgid "Random Artists"
-msgstr ""
+msgstr "Artis Acak"
 
 msgctxt "#31260"
 msgid "Movies In Progress"
-msgstr ""
+msgstr "Film Sedang Berlangsung"
 
 msgctxt "#31261"
 msgid "TV Shows In Progress"
-msgstr ""
+msgstr "Acara TV Sedang Berlangsung"
 
 msgctxt "#31262"
 msgid "Music In Progress"
-msgstr ""
+msgstr "Musik Sedang Berlangsung"
 
 msgctxt "#31263"
 msgid "Unwatched Movies"
-msgstr ""
+msgstr "Film yang Belum Ditonton"
 
 msgctxt "#31264"
 msgid "Unwatched TV Shows"
@@ -706,7 +706,7 @@ msgstr "Acara TV yang Belum Ditonton"
 
 msgctxt "#31265"
 msgid "Unwatched Episodes"
-msgstr ""
+msgstr "Episode yang Belum Ditonton"
 
 msgctxt "#31266"
 msgid "Top Rated Movies"
@@ -718,11 +718,11 @@ msgstr "Acara TV Berperingkat Teratas"
 
 msgctxt "#31268"
 msgid "Random Episodes"
-msgstr ""
+msgstr "Episode Acak"
 
 msgctxt "#31269"
 msgid "On-Air TV Shows"
-msgstr ""
+msgstr "Acara TV Siaran"
 
 msgctxt "#31270"
 msgid "Movie Facts"
