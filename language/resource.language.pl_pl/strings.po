@@ -6,15 +6,15 @@ msgstr ""
 "Project-Id-Version: KODI Skins\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2023-12-14 15:11+0000\n"
-"Last-Translator: Marek Adamski <fevbew@wp.pl>\n"
+"PO-Revision-Date: 2024-10-03 21:29+0000\n"
+"Last-Translator: Konrad W <kondiwxd@gmail.com>\n"
 "Language-Team: Polish <https://kodi.weblate.cloud/projects/kodi-add-ons-skins/skin-bello/pl_pl/>\n"
 "Language: pl_pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.7.2\n"
 
 msgctxt "Addon Summary"
 msgid "A GUI for Kodi Media Center"
@@ -154,7 +154,7 @@ msgstr ""
 
 msgctxt "#31032"
 msgid "User Login"
-msgstr ""
+msgstr "Login użytkownika"
 
 msgctxt "#31033"
 msgid "Channel Group"
@@ -322,7 +322,7 @@ msgstr ""
 
 msgctxt "#31107"
 msgid "Simple"
-msgstr ""
+msgstr "Proste"
 
 msgctxt "#31108"
 msgid "System Music Files"
@@ -394,7 +394,7 @@ msgstr "Pokaż tylko na ekranie głównym"
 
 msgctxt "#31132"
 msgid "Hide Background Video"
-msgstr ""
+msgstr "Ukryj video w tle"
 
 msgctxt "#31137"
 msgid "Enable Notifications"
@@ -422,7 +422,7 @@ msgstr ""
 
 msgctxt "#31151"
 msgid "Show RSS feed in whole skin"
-msgstr ""
+msgstr "Pokazuj aktualności RSS w całym motywie"
 
 msgctxt "#31153"
 msgid "Enable login screen"
@@ -470,7 +470,7 @@ msgstr "Poziom ustawień:"
 
 msgctxt "#31168"
 msgid "Reset Level"
-msgstr ""
+msgstr "Resetuj poziom"
 
 msgctxt "#31169"
 msgid "Reset Skin"
@@ -502,7 +502,7 @@ msgstr ""
 
 msgctxt "#31206"
 msgid "Next Aired TV Shows"
-msgstr ""
+msgstr "Następnie emitowane seriale TV"
 
 msgctxt "#31207"
 msgid "Widget's Aspect Ratio"
@@ -510,11 +510,11 @@ msgstr ""
 
 msgctxt "#31208"
 msgid "Auto-Hide all Widgets"
-msgstr ""
+msgstr "Automatycznie ukrywaj wszystkie widgety"
 
 msgctxt "#31209"
 msgid "Use submenu as Widget"
-msgstr ""
+msgstr "Używaj podmenu jako widgetu"
 
 msgctxt "#31210"
 msgid "Recent"
@@ -562,11 +562,11 @@ msgstr "Informacje dodatkowe"
 
 msgctxt "#31221"
 msgid "Extra art"
-msgstr ""
+msgstr "Dodatkowa grafika"
 
 msgctxt "#31222"
 msgid "Latest Song"
-msgstr ""
+msgstr "Najnowszy utwór"
 
 msgctxt "#31223"
 msgid "Square"
@@ -582,7 +582,7 @@ msgstr "Ostatnia aktualizacja"
 
 msgctxt "#31230"
 msgid "Data Provider"
-msgstr ""
+msgstr "Dostawca informacji"
 
 msgctxt "#31231"
 msgid "Daily"
@@ -594,11 +594,11 @@ msgstr "Lokalizacja"
 
 msgctxt "#31237"
 msgid "Popular People"
-msgstr ""
+msgstr "Popularne osoby"
 
 msgctxt "#31238"
 msgid "No Shows airing today.[CR]Press LEFT to select different day."
-msgstr ""
+msgstr "Dziś nie ma emisji serialu.[CR]Wciśnij W LEWO, aby wybrać inny dzień."
 
 msgctxt "#31239"
 msgid "Shows Listed"
@@ -606,7 +606,7 @@ msgstr ""
 
 msgctxt "#31240"
 msgid "Shows Airing Today"
-msgstr ""
+msgstr "Seriale emitowane dzisiaj"
 
 msgctxt "#31241"
 msgid "Recently Added Movies"
@@ -614,7 +614,7 @@ msgstr "Filmy ostatnio dodane"
 
 msgctxt "#31242"
 msgid "Recently Added TV Shows"
-msgstr ""
+msgstr "Ostatnio dodane seriale TV"
 
 msgctxt "#31243"
 msgid "Recently Added Music"
@@ -630,7 +630,7 @@ msgstr "Seriale dla dzieci"
 
 msgctxt "#31246"
 msgid "TV Shows Airing Today"
-msgstr ""
+msgstr "Seriale TV emitowane dzisiaj"
 
 msgctxt "#31247"
 msgid "Random Movies"
@@ -666,7 +666,7 @@ msgstr "Szukaj w YouTube"
 
 msgctxt "#31255"
 msgid "RSS Video Feeds"
-msgstr ""
+msgstr "Aktualności RSS Video"
 
 msgctxt "#31256"
 msgid "In Cinemas Now"
@@ -714,7 +714,7 @@ msgstr "Najwyżej oceniane"
 
 msgctxt "#31267"
 msgid "Top Rated TV Shows"
-msgstr ""
+msgstr "Najwyżej oceniane seriale TV"
 
 msgctxt "#31268"
 msgid "Random Episodes"
@@ -722,15 +722,15 @@ msgstr "Losowe odcinki"
 
 msgctxt "#31269"
 msgid "On-Air TV Shows"
-msgstr ""
+msgstr "Emitowane seriale TV"
 
 msgctxt "#31270"
 msgid "Movie Facts"
-msgstr ""
+msgstr "Fakty o filmach"
 
 msgctxt "#31271"
 msgid "TV Show Facts"
-msgstr ""
+msgstr "Fakty o serialach TV"
 
 msgctxt "#31272"
 msgid "Died"
@@ -746,35 +746,35 @@ msgstr "Losowe utwory"
 
 msgctxt "#31275"
 msgid "Most Watched TV Shows"
-msgstr ""
+msgstr "Najbardziej oglądane seriale TV"
 
 msgctxt "#31276"
 msgid "Most Anticipated TV Shows"
-msgstr ""
+msgstr "Najbardziej wyczekiwane seriale TV"
 
 msgctxt "#31277"
 msgid "Most Watched Movies"
-msgstr ""
+msgstr "Najbardziej oglądane filmy"
 
 msgctxt "#31278"
 msgid "Most Anticipated Movies"
-msgstr ""
+msgstr "Najbardziej wyczekiwane filmy"
 
 msgctxt "#31279"
 msgid "Box Office"
-msgstr ""
+msgstr "Box Office"
 
 msgctxt "#31280"
 msgid "Most Popular Movies"
-msgstr ""
+msgstr "Najpopularniejsze filmy"
 
 msgctxt "#31281"
 msgid "Update Info"
-msgstr ""
+msgstr "Aktualizuj info"
 
 msgctxt "#31282"
 msgid "Reset & Update Info"
-msgstr ""
+msgstr "Resetuj i aktualizuj info"
 
 msgctxt "#31300"
 msgid "Muted"
@@ -790,7 +790,7 @@ msgstr "Pauza"
 
 msgctxt "#31303"
 msgid "Rewinding:"
-msgstr ""
+msgstr "Przewijanie do tyłu:"
 
 msgctxt "#31304"
 msgid "Forwarding:"
@@ -806,11 +806,11 @@ msgstr "Niestandardowe tło"
 
 msgctxt "#31307"
 msgid "Enable Visualization"
-msgstr ""
+msgstr "Włącz wizualizację"
 
 msgctxt "#31308"
 msgid "Visualization Type"
-msgstr ""
+msgstr "Typ wizualizacji"
 
 msgctxt "#31309"
 msgid "Visualization Presets"
@@ -822,15 +822,15 @@ msgstr "Ustawienia wizualizacji"
 
 msgctxt "#31311"
 msgid "Enable Music Fanart SlideShow"
-msgstr ""
+msgstr "Włącz pokaz slajdów tapet podczas muzyki"
 
 msgctxt "#31312"
 msgid "Enable Artist SlideShow"
-msgstr ""
+msgstr "Włącz pokaz slajdów tapet artystów"
 
 msgctxt "#31313"
 msgid "Animated Backgrounds"
-msgstr ""
+msgstr "Animowane tła"
 
 msgctxt "#31314"
 msgid "Hide Diffuse Colors"
@@ -874,7 +874,7 @@ msgstr "Zużycie CPU"
 
 msgctxt "#31324"
 msgid "Cache level"
-msgstr ""
+msgstr "Poziom cache"
 
 msgctxt "#31350"
 msgid "Available Groups"
@@ -894,11 +894,11 @@ msgstr "Usuń grupę"
 
 msgctxt "#31354"
 msgid "Hide Group"
-msgstr ""
+msgstr "Ukryj grupę"
 
 msgctxt "#31355"
 msgid "Unhide Group"
-msgstr ""
+msgstr "Pokaż grupę"
 
 msgctxt "#31356"
 msgid "Similar"
@@ -910,7 +910,7 @@ msgstr "Timer"
 
 msgctxt "#31358"
 msgid "Small List"
-msgstr ""
+msgstr "Mała lista"
 
 msgctxt "#31374"
 msgid "Quick Navigation"
@@ -926,27 +926,27 @@ msgstr ""
 
 msgctxt "#31377"
 msgid "Manage Custom Items"
-msgstr ""
+msgstr "Zarządzaj dodatkowymi elementami"
 
 msgctxt "#31378"
 msgid "Custom Item"
-msgstr ""
+msgstr "Dodatkowy element"
 
 msgctxt "#31379"
 msgid "Custom Items"
-msgstr ""
+msgstr "Dodatkowe elementy"
 
 msgctxt "#31381"
 msgid "Search Video Library"
-msgstr ""
+msgstr "Szukaj w bibliotece video"
 
 msgctxt "#31382"
 msgid "Search Music Library"
-msgstr ""
+msgstr "Szukaj w bibliotece muzycznej"
 
 msgctxt "#31383"
 msgid "Search Add-ons"
-msgstr ""
+msgstr "Szukaj dodatków"
 
 msgctxt "#31384"
 msgid "Search TheMovieDB"
@@ -954,7 +954,7 @@ msgstr "Przeszukaj bazę TheMovieDB"
 
 msgctxt "#31385"
 msgid "Search Actors & Directors"
-msgstr ""
+msgstr "Szukaj aktorów i reżyserów"
 
 msgctxt "#31386"
 msgid "People"
@@ -974,7 +974,7 @@ msgstr ""
 
 msgctxt "#31432"
 msgid "Please check your Weather service settings."
-msgstr ""
+msgstr "Proszę sprawdzić swoje ustawienia usługi Pogody."
 
 msgctxt "#31433"
 msgid "All Skin Settings will revert back to their default state.[CR]Are you sure you want to proceed ?"
